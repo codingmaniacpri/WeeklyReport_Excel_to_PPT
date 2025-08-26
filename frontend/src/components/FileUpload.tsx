@@ -91,7 +91,7 @@
 //       return;
 //     }
 //     // TODO: Add your report generation API call here,
-//     // you may set uploading, progress, call backend and then 
+//     // you may set uploading, progress, call backend and then
 //     // call onDownload with the download URL returned by backend
 //   }
 
@@ -205,13 +205,35 @@ const FileUpload: React.FC<Props> = ({ onPreview }) => {
 
       try {
         const workbook = XLSX.read(data, { type: "array" });
-        const sheetsPreview: SheetPreviewData[] = workbook.SheetNames.map(sheetName => {
-          const worksheet = workbook.Sheets[sheetName];
-          const sheetData = XLSX.utils.sheet_to_json(worksheet, { header: 1 }) as (string | number | null)[][];
-          return { sheetName, data: sheetData };
+
+        // Debugging logs
+        console.log("Sheet Names Found:", workbook.SheetNames);
+        workbook.SheetNames.forEach((name) => {
+          const data = XLSX.utils.sheet_to_json(workbook.Sheets[name], {
+            header: 1,
+            defval: "",
+          });
+          console.log(
+            `Sheet: ${name}, Rows: ${data.length}, Sample Row:`,
+            data[0]
+          );
         });
+        //******************************************* */
+        
+        const sheetsPreview: SheetPreviewData[] = workbook.SheetNames.map(
+          (sheetName) => {
+            const worksheet = workbook.Sheets[sheetName];
+            const sheetData = XLSX.utils.sheet_to_json(worksheet, {
+              header: 1,
+              defval: "", // fill empty cells to preserve structure
+              raw: false, // format values properly, especially dates
+            }) as (string | number | null)[][];
+            return { sheetName, data: sheetData };
+          }
+        );
         onPreview(sheetsPreview);
-      } catch {
+      } catch (error) {
+        console.error("SheetJS parse error:", error);
         setError("Failed to parse Excel file.");
         onPreview([]);
       }
@@ -242,7 +264,9 @@ const FileUpload: React.FC<Props> = ({ onPreview }) => {
 
   return (
     <div className="max-w-xl mx-auto p-6 bg-white shadow-lg rounded-2xl">
-      <h2 className="text-xl font-bold text-gray-800 mb-4">Upload Excel File</h2>
+      <h2 className="text-xl font-bold text-gray-800 mb-4">
+        Upload Excel File
+      </h2>
       <div
         className={`border-2 border-dashed rounded-lg p-8 text-center cursor-pointer transition-colors duration-200 ${
           dragOver ? "border-blue-500 bg-blue-50" : "border-gray-300 bg-gray-50"
