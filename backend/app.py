@@ -21,18 +21,18 @@ os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 os.makedirs(OUTPUT_FOLDER, exist_ok=True)
 
 
-@app.route("/upload", methods=["POST"])
+@app.route("/upload_excel", methods=["POST"])
 def upload_files():
     """
     Endpoint: /upload
     Accepts Excel + PPT template file uploads
     Generates new PPT and returns download link
     """
-    if "excel" not in request.files or "template" not in request.files:
-        return jsonify({"error": "Both excel and template files are required"}), 400
+    if "excel_file" not in request.files or "ppt_template" not in request.files:
+        return jsonify({"error": "Both excel_file and ppt_template files are required"}), 400
 
-    excel_file = request.files["excel"]
-    template_file = request.files["template"]
+    excel_file = request.files["excel_file"]
+    template_file = request.files["ppt_template"]
 
     # Save files
     excel_path = save_uploaded_file(excel_file, app.config["UPLOAD_FOLDER"])
@@ -47,10 +47,13 @@ def upload_files():
 
     dataframe_to_ppt_with_template(df, template_path, output_path)
 
-    return jsonify({
-        "message": "PPT generated successfully",
-        "download_url": f"/download/{output_filename}"
-    })
+    # Return plain download URL string compatible with frontend's XHR usage
+    return f"http://localhost:5000/download/{output_filename}", 200
+
+    # return jsonify({
+    #     "message": "PPT generated successfully",
+    #     "download_url": f"/download/{output_filename}"
+    # })
 
 
 @app.route("/download/<filename>", methods=["GET"])
