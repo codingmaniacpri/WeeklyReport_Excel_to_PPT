@@ -1,4 +1,3 @@
-
 // import React, { useRef, useState } from "react";
 // import * as XLSX from "xlsx";
 
@@ -64,7 +63,7 @@
 //           );
 //         });
 //         //******************************************* */
-        
+
 //         const sheetsPreview: SheetPreviewData[] = workbook.SheetNames.map(
 //           (sheetName) => {
 //             const worksheet = workbook.Sheets[sheetName];
@@ -254,26 +253,29 @@ const FileUpload: React.FC<Props> = ({ onPreview, onDownload }) => {
     formData.append("file", selectedFile);
 
     try {
-      const response = await axios.post("/api/upload-report", formData, {
-        headers: {
-          "Content-Type": "multipart/form-data",
-        },
-        onUploadProgress: (progressEvent) => {
-          const percentComplete =
-            progressEvent.total && progressEvent.total > 0
-              ? Math.round((progressEvent.loaded * 100) / progressEvent.total)
-              : 0;
-          setUploadProgress(percentComplete);
-        },
-      });
-      // Assume backend returns { downloadUrl: '...' }
+      const response = await axios.post(
+        "http://localhost:5000/api/upload-report",
+        formData,
+        {
+          headers: { "Content-Type": "multipart/form-data" },
+          onUploadProgress: (progressEvent) => {
+            let percentComplete = 0;
+            if (progressEvent.total) {
+              percentComplete = Math.round(
+                (progressEvent.loaded * 100) / progressEvent.total
+              );
+            }
+            setUploadProgress(percentComplete);
+          },
+        }
+      );
+
+      // Backend responds with a download URL
       const downloadUrl = response.data.downloadUrl;
       onDownload(downloadUrl);
-    // } catch (err) {
-    //   setError(
-    //     err.response?.data?.message ||
-    //       "Failed to upload and generate report. Please try again."
-    //   );
+    } catch (error) {
+      console.error("Upload error:", error);
+      setError("Failed to upload file and generate report.");
     } finally {
       setUploading(false);
       setUploadProgress(0);
@@ -282,7 +284,9 @@ const FileUpload: React.FC<Props> = ({ onPreview, onDownload }) => {
 
   return (
     <div className="max-w-xl mx-auto p-6 bg-white shadow-lg rounded-2xl">
-      <h2 className="text-xl font-bold text-gray-800 mb-4">Upload Excel File</h2>
+      <h2 className="text-xl font-bold text-gray-800 mb-4">
+        Upload Excel File
+      </h2>
       <div
         className={`border-2 border-dashed rounded-lg p-8 text-center cursor-pointer transition-colors duration-200 ${
           dragOver ? "border-blue-500 bg-blue-50" : "border-gray-300 bg-gray-50"
