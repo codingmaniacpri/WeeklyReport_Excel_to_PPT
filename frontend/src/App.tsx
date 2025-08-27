@@ -19,18 +19,18 @@ function App() {
   };
 
   return (
-    <div className="flex min-h-screen bg-gradient-to-tr from-gray-200 via-blue-100 to-purple-100">
+    <div className="flex flex-col min-h-screen bg-gradient-to-tr from-gray-200 via-blue-100 to-purple-100">
       {/* Sidebar with live logs */}
       <Navbar />
 
       {/* Main area */}
-      <main className="flex-1 p-8">
+      <main className="flex flex-1 flex-col items-center justify-center pt-24">
         <h1 className="text-4xl font-bold mb-8">
           Welcome to Weekly Report Generator
         </h1>
 
         {/* Excel file upload */}
-        <FileUpload onPreview={setPreview} onDownload={handleDownload} companyName={''} logoFile={null} />
+        <FileUpload onPreview={setPreview} onDownload={handleDownload} companyName={''} logoFile={null} projectTitle={''} />
 
         {/* Excel preview table */}
         {preview.length > 0 && (
