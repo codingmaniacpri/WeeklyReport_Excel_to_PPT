@@ -1,148 +1,3 @@
-// import React, { useRef, useState } from "react";
-// import * as XLSX from "xlsx";
-
-// export type SheetPreviewData = {
-//   sheetName: string;
-//   data: Array<Array<string | number | null>>;
-// };
-
-// interface Props {
-//   onPreview: (data: SheetPreviewData[]) => void;
-//   onDownload: (url: string) => void;
-//   companyName: string;
-//   projectTitle: string;
-//   logoFile: File | null;
-// }
-
-// const FileUpload: React.FC<Props> = ({ onPreview }) => {
-//   const fileInputRef = useRef<HTMLInputElement>(null);
-//   const [selectedFile, setSelectedFile] = useState<File | null>(null);
-//   const [error, setError] = useState<string | null>(null);
-//   const [dragOver, setDragOver] = useState(false);
-
-//   const allowedTypes = [
-//     "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-//   ];
-//   const maxSizeMB = 5;
-
-//   function validateAndSetFile(file: File) {
-//     if (!allowedTypes.includes(file.type)) {
-//       setError("Only .xlsx files are supported.");
-//       setSelectedFile(null);
-//       onPreview([]);
-//       return;
-//     }
-//     if (file.size > maxSizeMB * 1024 * 1024) {
-//       setError("File size must be less than 5MB.");
-//       setSelectedFile(null);
-//       onPreview([]);
-//       return;
-//     }
-
-//     setError(null);
-//     setSelectedFile(file);
-
-//     const reader = new FileReader();
-//     reader.onload = (e) => {
-//       const data = e.target?.result;
-//       if (!data) return;
-
-//       try {
-//         const workbook = XLSX.read(data, { type: "array" });
-
-//         // Debugging logs
-//         console.log("Sheet Names Found:", workbook.SheetNames);
-//         workbook.SheetNames.forEach((name) => {
-//           const data = XLSX.utils.sheet_to_json(workbook.Sheets[name], {
-//             header: 1,
-//             defval: "",
-//           });
-//           console.log(
-//             `Sheet: ${name}, Rows: ${data.length}, Sample Row:`,
-//             data[0]
-//           );
-//         });
-//         //******************************************* */
-
-//         const sheetsPreview: SheetPreviewData[] = workbook.SheetNames.map(
-//           (sheetName) => {
-//             const worksheet = workbook.Sheets[sheetName];
-//             const sheetData = XLSX.utils.sheet_to_json(worksheet, {
-//               header: 1,
-//               defval: "", // fill empty cells to preserve structure
-//               raw: false, // format values properly, especially dates
-//             }) as (string | number | null)[][];
-//             return { sheetName, data: sheetData };
-//           }
-//         );
-//         onPreview(sheetsPreview);
-//       } catch (error) {
-//         console.error("SheetJS parse error:", error);
-//         setError("Failed to parse Excel file.");
-//         onPreview([]);
-//       }
-//     };
-//     reader.readAsArrayBuffer(file);
-//   }
-
-//   // ... drag & drop handlers remain unchanged ...
-
-//   const handleDrop = (event: React.DragEvent<HTMLDivElement>) => {
-//     event.preventDefault();
-//     setDragOver(false);
-//     const files = event.dataTransfer.files;
-//     if (files && files[0]) validateAndSetFile(files[0]);
-//   };
-
-//   const handleDragOver = (event: React.DragEvent<HTMLDivElement>) => {
-//     event.preventDefault();
-//     setDragOver(true);
-//   };
-
-//   const handleDragLeave = () => setDragOver(false);
-
-//   const handleFileChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-//     const files = event.target.files;
-//     if (files && files[0]) validateAndSetFile(files[0]);
-//   };
-
-//   return (
-//     <div className="max-w-xl mx-auto p-6 bg-white shadow-lg rounded-2xl">
-//       <h2 className="text-xl font-bold text-gray-800 mb-4">
-//         Upload Excel File
-//       </h2>
-//       <div
-//         className={`border-2 border-dashed rounded-lg p-8 text-center cursor-pointer transition-colors duration-200 ${
-//           dragOver ? "border-blue-500 bg-blue-50" : "border-gray-300 bg-gray-50"
-//         }`}
-//         onDrop={handleDrop}
-//         onDragOver={handleDragOver}
-//         onDragLeave={handleDragLeave}
-//         onClick={() => fileInputRef.current?.click()}
-//       >
-//         <input
-//           ref={fileInputRef}
-//           type="file"
-//           accept=".xlsx"
-//           onChange={handleFileChange}
-//           hidden
-//         />
-//         <p className="text-gray-600 font-medium">
-//           {selectedFile ? (
-//             <span className="text-green-700">{selectedFile.name}</span>
-//           ) : (
-//             "Drag & drop Excel file here, or click to browse"
-//           )}
-//         </p>
-//         <p className="text-sm text-gray-500 mt-1">(.xlsx only, max 5MB)</p>
-//       </div>
-//       {error && <p className="text-red-600 text-sm mt-3">⚠ {error}</p>}
-//     </div>
-//   );
-// };
-
-// export default FileUpload;
-
 import React, { useRef, useState } from "react";
 import * as XLSX from "xlsx";
 import axios from "axios";
@@ -156,18 +11,18 @@ interface Props {
   onPreview: (data: SheetPreviewData[]) => void;
   onDownload: (url: string) => void;
   companyName: string;
-  projectTitle: string;
   logoFile: File | null;
 }
 
-const FileUpload: React.FC<Props> = ({ onPreview, onDownload }) => {
+const FileUpload: React.FC<Props> = ({ onPreview, onDownload, companyName, logoFile }) => {
   const fileInputRef = useRef<HTMLInputElement>(null);
+  const [projectTitle, setProjectTitle] = useState("");
+  const [weekRange, setWeekRange] = useState("");
   const [selectedFile, setSelectedFile] = useState<File | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [dragOver, setDragOver] = useState(false);
   const [uploading, setUploading] = useState(false);
   const [uploadProgress, setUploadProgress] = useState(0);
-
   const allowedTypes = [
     "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
   ];
@@ -188,13 +43,10 @@ const FileUpload: React.FC<Props> = ({ onPreview, onDownload }) => {
     }
     setError(null);
     setSelectedFile(file);
-
-    // Parse file for preview instantly using SheetJS
     const reader = new FileReader();
     reader.onload = (e) => {
       const data = e.target?.result;
       if (!data) return;
-
       try {
         const workbook = XLSX.read(data, { type: "array" });
         const sheetsPreview: SheetPreviewData[] = workbook.SheetNames.map(
@@ -202,8 +54,8 @@ const FileUpload: React.FC<Props> = ({ onPreview, onDownload }) => {
             const worksheet = workbook.Sheets[sheetName];
             const sheetData = XLSX.utils.sheet_to_json(worksheet, {
               header: 1,
-              defval: "", // fill empty cells
-              raw: false, // format dates properly
+              defval: "",
+              raw: false,
             }) as (string | number | null)[][];
             return { sheetName, data: sheetData };
           }
@@ -218,40 +70,36 @@ const FileUpload: React.FC<Props> = ({ onPreview, onDownload }) => {
     reader.readAsArrayBuffer(file);
   }
 
-  // Handlers for drag & drop etc.
   const handleDrop = (event: React.DragEvent<HTMLDivElement>) => {
     event.preventDefault();
     setDragOver(false);
     const files = event.dataTransfer.files;
     if (files && files[0]) validateAndSetFile(files[0]);
   };
-
   const handleDragOver = (event: React.DragEvent<HTMLDivElement>) => {
     event.preventDefault();
     setDragOver(true);
   };
-
   const handleDragLeave = () => setDragOver(false);
-
   const handleFileChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const files = event.target.files;
     if (files && files[0]) validateAndSetFile(files[0]);
   };
 
-  // API Upload with progress and download handling
   async function handleGenerateReport() {
     if (!selectedFile) {
       setError("Please upload a valid Excel file.");
       return;
     }
-
     setError(null);
     setUploading(true);
     setUploadProgress(0);
-
     const formData = new FormData();
     formData.append("file", selectedFile);
-
+    formData.append("projectTitle", projectTitle);
+    formData.append("weekRange", weekRange);
+    formData.append("companyName", companyName);
+    if (logoFile) formData.append("logoFile", logoFile);
     try {
       const response = await axios.post(
         "http://localhost:5000/api/upload-report",
@@ -269,8 +117,6 @@ const FileUpload: React.FC<Props> = ({ onPreview, onDownload }) => {
           },
         }
       );
-
-      // Backend responds with a download URL
       const downloadUrl = response.data.downloadUrl;
       onDownload(downloadUrl);
     } catch (error) {
@@ -283,14 +129,31 @@ const FileUpload: React.FC<Props> = ({ onPreview, onDownload }) => {
   }
 
   return (
-    <div className="max-w-xl mx-auto p-6 bg-white shadow-lg rounded-2xl">
-      <h2 className="text-xl font-bold text-gray-800 mb-4">
-        Upload Excel File
-      </h2>
+    <div className="max-w-xl mx-auto p-6 bg-white shadow-lg rounded-2xl mt-4">
+      <h2 className="text-xl font-bold text-gray-800 mb-4">Weekly Report Generation</h2>
+      <div className="mb-4">
+        <label className="block font-semibold mb-1">Project Title</label>
+        <input
+          className="w-full border rounded px-3 py-2"
+          type="text"
+          value={projectTitle}
+          onChange={e => setProjectTitle(e.target.value)}
+          required
+        />
+      </div>
+      <div className="mb-4">
+        <label className="block font-semibold mb-1">Week Range</label>
+        <input
+          className="w-full border rounded px-3 py-2"
+          type="text"
+          value={weekRange}
+          onChange={e => setWeekRange(e.target.value)}
+          placeholder="e.g. 19 Aug - 25 Aug 2025"
+          required
+        />
+      </div>
       <div
-        className={`border-2 border-dashed rounded-lg p-8 text-center cursor-pointer transition-colors duration-200 ${
-          dragOver ? "border-blue-500 bg-blue-50" : "border-gray-300 bg-gray-50"
-        }`}
+        className={`border-2 border-dashed rounded-lg p-8 text-center cursor-pointer transition-colors duration-200 ${dragOver ? "border-blue-500 bg-blue-50" : "border-gray-300 bg-gray-50"}`}
         onDrop={handleDrop}
         onDragOver={handleDragOver}
         onDragLeave={handleDragLeave}
@@ -313,9 +176,7 @@ const FileUpload: React.FC<Props> = ({ onPreview, onDownload }) => {
         </p>
         <p className="text-sm text-gray-500 mt-1">(.xlsx only, max 5MB)</p>
       </div>
-
       {error && <p className="text-red-600 text-sm mt-3">⚠ {error}</p>}
-
       {uploading && (
         <div className="w-full bg-gray-200 rounded-full h-3 mt-4 overflow-hidden">
           <div
@@ -326,7 +187,6 @@ const FileUpload: React.FC<Props> = ({ onPreview, onDownload }) => {
           </div>
         </div>
       )}
-
       <div className="flex justify-end mt-6">
         <button
           disabled={!selectedFile || uploading}

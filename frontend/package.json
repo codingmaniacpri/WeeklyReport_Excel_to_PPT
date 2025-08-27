@@ -14,6 +14,7 @@
     "jszip": "^3.10.1",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
+    "react-window": "^1.8.11",
     "xlsx": "^0.18.5"
   },
   "devDependencies": {
