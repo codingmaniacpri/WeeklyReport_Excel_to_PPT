@@ -19,7 +19,6 @@ interface Props {
 
 const FileUpload: React.FC<Props> = ({
   onPreview,
-  onDownload,
   companyName,
   logoFile,
 }) => {
@@ -44,8 +43,12 @@ const FileUpload: React.FC<Props> = ({
   const [error, setError] = useState<string | null>(null);
 
   // allowed mime types and max sizes for validation
-  const allowedExcelTypes = ["application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"];
-  const allowedPptTypes = ["application/vnd.openxmlformats-officedocument.presentationml.presentation"];
+  const allowedExcelTypes = [
+    "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+  ];
+  const allowedPptTypes = [
+    "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+  ];
   const maxExcelSizeMB = 5;
   const maxPptSizeMB = 5;
 
@@ -72,15 +75,17 @@ const FileUpload: React.FC<Props> = ({
       if (!data) return;
       try {
         const workbook = XLSX.read(data, { type: "array" });
-        const sheetsPreview: SheetPreviewData[] = workbook.SheetNames.map((sheetName) => {
-          const worksheet = workbook.Sheets[sheetName];
-          const sheetData = XLSX.utils.sheet_to_json(worksheet, {
-            header: 1,
-            defval: "",
-            raw: false,
-          }) as (string | number | null)[][];
-          return { sheetName, data: sheetData };
-        });
+        const sheetsPreview: SheetPreviewData[] = workbook.SheetNames.map(
+          (sheetName) => {
+            const worksheet = workbook.Sheets[sheetName];
+            const sheetData = XLSX.utils.sheet_to_json(worksheet, {
+              header: 1,
+              defval: "",
+              raw: false,
+            }) as (string | number | null)[][];
+            return { sheetName, data: sheetData };
+          }
+        );
         onPreview(sheetsPreview);
       } catch (error) {
         console.error("Failed to parse Excel file:", error);
@@ -150,8 +155,8 @@ const FileUpload: React.FC<Props> = ({
     setUploading(true);
     setUploadProgress(0);
     const formData = new FormData();
-    formData.append("file", excelFile);
-    formData.append("pptTemplate", pptFile);
+    formData.append("excel", excelFile);
+    formData.append("ppt", pptFile);
     formData.append("projectTitle", projectTitle);
     formData.append("weekRange", weekRange);
     formData.append("companyName", companyName);
@@ -164,13 +169,24 @@ const FileUpload: React.FC<Props> = ({
           headers: { "Content-Type": "multipart/form-data" },
           onUploadProgress: (progressEvent) => {
             if (progressEvent.total) {
-              setUploadProgress(Math.round((progressEvent.loaded * 100) / progressEvent.total));
+              setUploadProgress(
+                Math.round((progressEvent.loaded * 100) / progressEvent.total)
+              );
             }
           },
         }
       );
-      const downloadUrl = response.data.downloadUrl;
-      onDownload(downloadUrl);
+      const { excelDownloadUrl, pptDownloadUrl } = response.data;
+      [excelDownloadUrl, pptDownloadUrl].forEach((url) => {
+        if (url) {
+          const link = document.createElement("a");
+          link.href = url;
+          link.setAttribute("download", ""); // Let server suggest filename
+          document.body.appendChild(link);
+          link.click();
+          link.remove();
+        }
+      });
     } catch (error) {
       console.error("Upload error:", error);
       setError("Failed to upload file and generate report.");
@@ -183,7 +199,9 @@ const FileUpload: React.FC<Props> = ({
   // JSX rendering with labels, inputs, file upload areas, error & progress feedback
   return (
     <div className="max-w-xl mx-auto p-6 bg-white shadow-lg rounded-2xl mt-4">
-      <h2 className="text-xl font-bold text-gray-800 mb-4">Weekly Report Generation</h2>
+      <h2 className="text-xl font-bold text-gray-800 mb-4">
+        Weekly Report Generation
+      </h2>
 
       {/* Text input: Project Title */}
       <div className="mb-4">
