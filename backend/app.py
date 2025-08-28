@@ -17,11 +17,11 @@ os.makedirs(GENERATED_FOLDER, exist_ok=True)
 @app.route("/api/upload-report", methods=["POST"])
 def upload_report():
     # Check both files in request
-    if 'excel' not in request.files or 'ppt' not in request.files:
+    if 'excel' not in request.files or 'pptTemplate' not in request.files:
         return jsonify({"message": "Both Excel and PPT files are required"}), 400
 
     excel_file = request.files['excel']
-    ppt_file = request.files['ppt']
+    ppt_file = request.files['pptTemplate']
 
     if excel_file.filename == '' or ppt_file.filename == '':
         return jsonify({"message": "Invalid file(s)"}), 400
@@ -48,7 +48,7 @@ def upload_report():
     # Return download URLs for both
     response = {
         "excelDownloadUrl": f"http://localhost:5000/api/download-report/{unique_id}/excel",
-        "pptDownloadUrl": f"http://localhost:5000/api/download-report/{unique_id}/ppt"
+        "pptDownloadUrl": f"http://localhost:5000/api/download-report/{unique_id}/pptTemplate"
     }
 
     return jsonify(response)
@@ -60,7 +60,7 @@ def download_report(file_id, file_type):
         file_path = os.path.join(GENERATED_FOLDER, f"{file_id}_report.xlsx")
         download_name = "report.xlsx"
         mimetype = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
-    elif file_type == "ppt":
+    elif file_type == "pptTemplate":
         file_path = os.path.join(GENERATED_FOLDER, f"{file_id}_report.pptx")
         download_name = "report.pptx"
         mimetype = "application/vnd.openxmlformats-officedocument.presentationml.presentation"

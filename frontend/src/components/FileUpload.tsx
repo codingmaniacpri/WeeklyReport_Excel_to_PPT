@@ -139,7 +139,7 @@ const FileUpload: React.FC<Props> = ({ onPreview, onDownload }) => {
 
     const formData = new FormData();
     formData.append("excel", selectedFile); // Excel
-    formData.append("ppt", pptFile); // PPT
+    formData.append("pptTemplate", pptFile); // PPT
 
     try {
       const response = await axios.post(
