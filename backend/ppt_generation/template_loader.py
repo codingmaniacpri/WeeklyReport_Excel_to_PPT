@@ -1,8 +1,7 @@
 from pptx import Presentation
 
-def load_ppt_template(file_stream):
-    """
-    Load PPTX presentation from file-like object.
-    """
-    prs = Presentation(file_stream)
-    return prs
+def load_template(path: str):
+    return Presentation(path)
+
+def save_presentation(prs, out_path: str):
+    prs.save(out_path)
