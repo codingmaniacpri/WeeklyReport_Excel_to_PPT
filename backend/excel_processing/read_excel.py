@@ -1,27 +1,18 @@
 import pandas as pd
 import re
 
-def get_latest_date_comments(file_path):
-    df = pd.read_excel(file_path, sheet_name="Dependencies", header=1)
+def read_excel_sheets(file_path):
+    """
+    Reads all sheets in the Excel file and returns a dictionary 
+    {sheet_name: dataframe}.
+    """
+    # Load all sheets into a dictionary
+    sheets = pd.read_excel(file_path, sheet_name=None, header=0)
 
-    if df.columns[0].startswith("Unnamed"):
-        df = df.drop(df.columns[0], axis=1)
+    # Optional cleanup: remove unnamed index columns if they exist
+    cleaned_sheets = {}
+    for name, df in sheets.items():
+        df = df.loc[:, ~df.columns.str.contains("^Unnamed")]
+        cleaned_sheets[name] = df
 
-    def filter_latest_comment(text):
-        if pd.isna(text):
-            return text
-        comments = str(text).split("\n")
-        date_map = {}
-        for c in comments:
-            dates = re.findall(r"\b\d{2}/\d{2}\b", c)
-            if dates:
-                for d in dates:
-                    date_map[d] = date_map.get(d, []) + [c]
-        if not date_map:
-            return text
-        latest_date = max(date_map.keys(), key=lambda d: (int(d.split("/")[0]), int(d.split("/")[1])))
-        return "\n".join(date_map[latest_date])
-
-    processed_df = df.copy()
-    processed_df["Comments"] = processed_df["Comments"].apply(filter_latest_comment)
-    return processed_df, processed_df["Comments"]
+    return cleaned_sheets
