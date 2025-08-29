@@ -1,0 +1,506 @@
+[
+  {
+    "Note:": {
+      "value": "RED",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF9C0006",
+        "fill_color": "FFFFC7CE",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Dependencies for an API are either Pending or Complete. API delivery requires all dependencies to be Green.": {
+      "value": "Dependency is PENDING (Not complete and blocking planned API Delivery)",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "top"
+      }
+    }
+  },
+  {
+    "Note:": {
+      "value": "AMBER",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF9C6500",
+        "fill_color": "FFFFEB9C",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Dependencies for an API are either Pending or Complete. API delivery requires all dependencies to be Green.": {
+      "value": "Dependency PENDING  (In-Progress or Partially Complete but not finalised).",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "top"
+      }
+    }
+  },
+  {
+    "Note:": {
+      "value": "GREEN",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF006100",
+        "fill_color": "FFC6EFCE",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Dependencies for an API are either Pending or Complete. API delivery requires all dependencies to be Green.": {
+      "value": "Dependency is COMPLETE",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "top"
+      }
+    }
+  },
+  {
+    "Note:": {
+      "value": "API RAG status:  ",
+      "style": {
+        "font_bold": true,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": null,
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "top"
+      }
+    },
+    "Dependencies for an API are either Pending or Complete. API delivery requires all dependencies to be Green.": {
+      "value": null,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "General",
+        "alignment_horizontal": null,
+        "alignment_vertical": null
+      }
+    }
+  },
+  {
+    "Note:": {
+      "value": "Note: ",
+      "style": {
+        "font_bold": true,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Dependencies for an API are either Pending or Complete. API delivery requires all dependencies to be Green.": {
+      "value": "API RAG status indicates readiness of an API for formal testing  (taking in to account Design Dependencies, Development & Unit-testing progress, packaging of code and deployment into TEST Environment as part of a managed Release).  ",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "General",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "top"
+      }
+    }
+  },
+  {
+    "Note:": {
+      "value": "RED",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF9C0006",
+        "fill_color": "FFFFC7CE",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Dependencies for an API are either Pending or Complete. API delivery requires all dependencies to be Green.": {
+      "value": "Dependencies PENDING or ISSUES blocking progress.  Cannot complete Development & Unit Testing by planned date.  ",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "top"
+      }
+    }
+  },
+  {
+    "Note:": {
+      "value": "AMBER",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF9C6500",
+        "fill_color": "FFFFEB9C",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Dependencies for an API are either Pending or Complete. API delivery requires all dependencies to be Green.": {
+      "value": "Dependencies PENDING.  Development & Unit-testing IN-PROGRESS but at risk.  OR Dependencies COMPLETE but there are ISSUES needing resolving.",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "top"
+      }
+    }
+  },
+  {
+    "Note:": {
+      "value": "GREEN",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF006100",
+        "fill_color": "FFC6EFCE",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Dependencies for an API are either Pending or Complete. API delivery requires all dependencies to be Green.": {
+      "value": "Dependencies COMPLETE.  Development & Unit-testing IN-PROGRESS.   No blockers.  OR All COMPLETE & API deployed to TEST Environment.",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "top"
+      }
+    }
+  },
+  {
+    "Note:": {
+      "value": "Milestone RAG status:  ",
+      "style": {
+        "font_bold": true,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": null,
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "top"
+      }
+    },
+    "Dependencies for an API are either Pending or Complete. API delivery requires all dependencies to be Green.": {
+      "value": null,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "General",
+        "alignment_horizontal": null,
+        "alignment_vertical": null
+      }
+    }
+  },
+  {
+    "Note:": {
+      "value": "Note: ",
+      "style": {
+        "font_bold": true,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Dependencies for an API are either Pending or Complete. API delivery requires all dependencies to be Green.": {
+      "value": "Project RAG status indicates overall status of the Project, taking in to account status of Deliverables, Target Milestone dates and Commercial Budget.",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "General",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "top"
+      }
+    }
+  },
+  {
+    "Note:": {
+      "value": "RED",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF9C0006",
+        "fill_color": "FFFFC7CE",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Dependencies for an API are either Pending or Complete. API delivery requires all dependencies to be Green.": {
+      "value": "Milestone blocked",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "top"
+      }
+    }
+  },
+  {
+    "Note:": {
+      "value": "AMBER",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF9C6500",
+        "fill_color": "FFFFEB9C",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Dependencies for an API are either Pending or Complete. API delivery requires all dependencies to be Green.": {
+      "value": "Milestone at risk",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "top"
+      }
+    }
+  },
+  {
+    "Note:": {
+      "value": "GREEN",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF006100",
+        "fill_color": "FFC6EFCE",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Dependencies for an API are either Pending or Complete. API delivery requires all dependencies to be Green.": {
+      "value": "Milestone on track or complete",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "top"
+      }
+    }
+  },
+  {
+    "Note:": {
+      "value": "Project RAG status:  ",
+      "style": {
+        "font_bold": true,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": null,
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "top"
+      }
+    },
+    "Dependencies for an API are either Pending or Complete. API delivery requires all dependencies to be Green.": {
+      "value": null,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "General",
+        "alignment_horizontal": null,
+        "alignment_vertical": null
+      }
+    }
+  },
+  {
+    "Note:": {
+      "value": "Note: ",
+      "style": {
+        "font_bold": true,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Dependencies for an API are either Pending or Complete. API delivery requires all dependencies to be Green.": {
+      "value": "Project RAG status indicates overall status of the Project, taking in to account status of Deliverables, Target Milestone dates and Commercial Budget..",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "General",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "top"
+      }
+    }
+  },
+  {
+    "Note:": {
+      "value": "RED",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF9C0006",
+        "fill_color": "FFFFC7CE",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Dependencies for an API are either Pending or Complete. API delivery requires all dependencies to be Green.": {
+      "value": "Major issues outstanding, no identified resolution plan. Project progress impacted.",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "top"
+      }
+    }
+  },
+  {
+    "Note:": {
+      "value": "AMBER",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF9C6500",
+        "fill_color": "FFFFEB9C",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Dependencies for an API are either Pending or Complete. API delivery requires all dependencies to be Green.": {
+      "value": "Major issues outstanding, resolution plans in place.  Project progress at risk.",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "top"
+      }
+    }
+  },
+  {
+    "Note:": {
+      "value": "GREEN",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF006100",
+        "fill_color": "FFC6EFCE",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Dependencies for an API are either Pending or Complete. API delivery requires all dependencies to be Green.": {
+      "value": "Project on track, no major issues impacting progress outstanding. ",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "top"
+      }
+    }
+  }
+]

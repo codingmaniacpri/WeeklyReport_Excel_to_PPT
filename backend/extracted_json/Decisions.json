@@ -1,0 +1,605 @@
+[
+  {
+    "S.No": {
+      "value": 1,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "FFFFFFFF",
+        "number_format": "#,##0_ ;\\-#,##0\\ ",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Date of Discussion": {
+      "value": "2025-05-19 00:00:00",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "mm-dd-yy",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Raised By": {
+      "value": "Ranjith Vadiyala",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "FFFFFFFF",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Description": {
+      "value": "APIs Prolifics build will be running on 4.9 versions and the existing JSON logger is not supported in 4.9 so we may have to use Mulesoft logger components",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "FFFFFFFF",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Decisions": {
+      "value": "23/05: Concluded to use Mulesfot logger.\n21/05: Noticed recent updates on JSON logger in exchange, need to confirm if anyone is updating.\n20/05: Raj suggested that out of the box logger could be an option instead of JSON logger.\nIs it a question of re-compiling the json logger module with Java 17 and the Mule Runtime 4.9?",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": null,
+        "number_format": "d-mmm-yy",
+        "alignment_horizontal": null,
+        "alignment_vertical": "top"
+      }
+    }
+  },
+  {
+    "S.No": {
+      "value": 2,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "FFFFFFFF",
+        "number_format": "#,##0_ ;\\-#,##0\\ ",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Date of Discussion": {
+      "value": "2025-05-19 00:00:00",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "mm-dd-yy",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Raised By": {
+      "value": "\u00a0Ranjith Vadiyala",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": null,
+        "fill_color": "FFFFFFFF",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Description": {
+      "value": "Implementation of alerting \u2013 We must plan to discuss on the CDM message structures and where to push. Assuming pushing into a Queue via Exchange with a CDM.",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": null,
+        "fill_color": "FFFFFFFF",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Decisions": {
+      "value": "23/05: Concluded to use the existing CDM messages.\n20/05: Mapping specifications are inplace. Ranjith to go through and get back if any questions.\n20/05: Ranjith is looking for Fresh Service API mapping specifications.\nBased on our conversation yesterday (19/5/2025) can we use the same CDM as what is used for email alerts? I will look to map the CDM to the Fresh Service alert object in the Fresh Service API.",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": null,
+        "fill_color": null,
+        "number_format": "d-mmm-yy",
+        "alignment_horizontal": null,
+        "alignment_vertical": "top"
+      }
+    }
+  },
+  {
+    "S.No": {
+      "value": 3,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "FFFFFFFF",
+        "number_format": "#,##0_ ;\\-#,##0\\ ",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Date of Discussion": {
+      "value": "2025-05-19 00:00:00",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "mm-dd-yy",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Raised By": {
+      "value": "\u00a0Ranjith Vadiyala",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": null,
+        "fill_color": "FFFFFFFF",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Description": {
+      "value": "Implementing error-handling \u2013 We use existing error handling as is. Based the issues we encounter we put more efforts to modify the logic. FYI Mule 4.4 supports error.suppressedErrors.errorType.namespace[0] It is not available in 4.6 and later versions.",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": null,
+        "fill_color": "FFFFFFFF",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "top"
+      }
+    },
+    "Decisions": {
+      "value": "23/05: Concluded that we will use the existing framework as is, and will add new logics only if the existing one's doesn't support the context.\n20/05: Change in error structures/object names should be replaced. \nCurrent implementation of error handligh is quite complex, can be simplified further. Raj/Ranjith to discuss and get back\nWhat value does this, error.suppressedErrors.errorType.namespace[0], return?  Is it just a question of fetching this value from a different path?",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": null,
+        "fill_color": null,
+        "number_format": "d-mmm-yy",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    }
+  },
+  {
+    "S.No": {
+      "value": 4,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "FFFFFFFF",
+        "number_format": "#,##0_ ;\\-#,##0\\ ",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Date of Discussion": {
+      "value": "2025-05-19 00:00:00",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "mm-dd-yy",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Raised By": {
+      "value": "\u00a0Ranjith Vadiyala",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": null,
+        "fill_color": "FFFFFFFF",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Description": {
+      "value": "Azure Blob Storage VS SFTP decision on file-mover solution to be concluded",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": null,
+        "fill_color": "FFFFFFFF",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "top"
+      }
+    },
+    "Decisions": {
+      "value": "23/05: Concluded that mezze will receive the files on SFTP, details are yet to be provided by SB.\n20/05: Mezze is going to pick up from SFTP and deliver to SFTP server. SFTP details to be provided.\nCould you please elaborate on this?",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": null,
+        "fill_color": null,
+        "number_format": "d-mmm-yy",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    }
+  },
+  {
+    "S.No": {
+      "value": 5,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "FFFFFFFF",
+        "number_format": "#,##0_ ;\\-#,##0\\ ",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Date of Discussion": {
+      "value": "2025-05-19 00:00:00",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "mm-dd-yy",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Raised By": {
+      "value": "Ranjith Vadiyala",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": null,
+        "fill_color": "FFFFFFFF",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Description": {
+      "value": "Every Rest API HTTP Listener uses a unique JKS file in TLS configurations which is hard to maintain, comeup with a plan to avoid such things ",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": null,
+        "fill_color": "FFFFFFFF",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "top"
+      }
+    },
+    "Decisions": {
+      "value": "23/05: Concluded that no JKS/TLS configurations will be used with in mule APIs. \n20/05: Raj to review the approach discussed during the call and rediscuss. \nNeed secure Key details of JKS. - Speak with Shubh to get that information as part of handover.\nRaj and Ranjith, since Private Space has SSL configured, is it necessary to run SSL at the API level? No PII or PCI data being transmitted?",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": null,
+        "fill_color": null,
+        "number_format": "d-mmm-yy",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    }
+  },
+  {
+    "S.No": {
+      "value": 6,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": null,
+        "number_format": "General",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Date of Discussion": {
+      "value": "2025-05-19 00:00:00",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "mm-dd-yy",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Raised By": {
+      "value": "Ranjith Vadiyala",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": null,
+        "fill_color": "FFFFFFFF",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Description": {
+      "value": "Master-data Process API name confirmation? We used p-sb-master-data-export-scheduler-app. I now think p-sb-master-data-nrt-scheduler-app may sounds better, where nrt mean - near real time.",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": null,
+        "fill_color": null,
+        "number_format": "d-mmm-yy",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Decisions": {
+      "value": "23/05: Concluded that \"p-sb-scheduler-app\" can be used.\n20/05: instead of near real time, can be scheduler app (p-sb-master-data-scheduler-app).\nCan be divided in 2 parts - Scheduler & implementation \nI would recommend using: p-sb-lowlatency-scheduler-app or p-sb-ll-scheduler-app",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": null,
+        "fill_color": null,
+        "number_format": "d-mmm-yy",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    }
+  },
+  {
+    "S.No": {
+      "value": 7,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "FFFFFFFF",
+        "number_format": "#,##0_ ;\\-#,##0\\ ",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Date of Discussion": {
+      "value": "2025-05-19 00:00:00",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "mm-dd-yy",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Raised By": {
+      "value": "Ranjith Vadiyala",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": null,
+        "fill_color": "FFFFFFFF",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Description": {
+      "value": "Ax-Customer-SAPI, Ax-Items-SAPI these system APIs have restrictions of processing Max of 50 items/records which means we either have to save the CSV data in chucks to a variable(this is our current implementation). we also have an open option to explore REST ends from Azure which uses append-blob (Not supported by the AzureBlobStorage connector). trying to understand why the restrictions is in place & can we avoid it?",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "FFFFFFFF",
+        "number_format": "@",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "top"
+      }
+    },
+    "Decisions": {
+      "value": "28/05: Concluded to use Azure Data Lake.\n23/05: Waiting for OAUTH credentials to access Azure REST APIs.\n20/05: Concluded to use the REST API call to append to blob.",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": null,
+        "fill_color": null,
+        "number_format": "d-mmm-yy",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    }
+  },
+  {
+    "S.No": {
+      "value": 8,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "FFFFFFFF",
+        "number_format": "#,##0_ ;\\-#,##0\\ ",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Date of Discussion": {
+      "value": "2025-05-20 00:00:00",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "mm-dd-yy",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Raised By": {
+      "value": "Ranjith Vadiyala",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": null,
+        "fill_color": "FFFFFFFF",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Description": {
+      "value": "Key Vault integration Decision",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "FFFFFFFF",
+        "number_format": "@",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Decisions": {
+      "value": "05/06: Concluded to use Secure properties for local and DEV testing, Once CITRIX is sorted we can move it to KeyVault.\n29/05: Concluded that we will go with Azure Keyvault OOB (Out of box) connector.\n23/05: We mentioned we use Azure Keyvault OOB connector, Now we want to go with DevOps as this option is costly.\n20/05: Raj has shared the document to Bell. Need to further discuss.\n20/05: Discuss on pro & cons of each option and arrive at the best ap",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": null,
+        "fill_color": null,
+        "number_format": "d-mmm-yy",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    }
+  },
+  {
+    "S.No": {
+      "value": 9,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": null,
+        "number_format": "General",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Date of Discussion": {
+      "value": "2025-06-20 00:00:00",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "mm-dd-yy",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Raised By": {
+      "value": "Ranjith Vadiyala",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Description": {
+      "value": "Proposed mapping field limitation decisions on Mezze Exp API & System 21 APIs from SB to be concluded.",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": null,
+        "fill_color": "00000000",
+        "number_format": "General",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Decisions": {
+      "value": "24/06: Concluded to make use of override schemas",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": null,
+        "fill_color": null,
+        "number_format": "d-mmm-yy",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    }
+  }
+]

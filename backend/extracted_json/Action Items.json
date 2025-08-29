@@ -1,0 +1,850 @@
+[
+  {
+    "ID": {
+      "value": 1,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "#,##0_ ;\\-#,##0\\ ",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Action Item": {
+      "value": "Azure Key Vault integration ",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Owner": {
+      "value": "Prolifics",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Status": {
+      "value": "Closed",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Comments by SB": {
+      "value": null,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": null,
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": null,
+        "alignment_vertical": "top"
+      }
+    },
+    "Comments by Prolifics": {
+      "value": "Discuss on pro & cons of each option and arrive at the best approach. \nConcluded that we will go with Azure Keyvault OOB (Out of box) connector.",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Target Date": {
+      "value": "2025-05-23 00:00:00",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "mm-dd-yy",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Date Completed": {
+      "value": "2025-05-23 00:00:00",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "mm-dd-yy",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    }
+  },
+  {
+    "ID": {
+      "value": 2,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "#,##0_ ;\\-#,##0\\ ",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Action Item": {
+      "value": "DB2 Connectivity Check",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Owner": {
+      "value": " Prolifics ",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Status": {
+      "value": "Closed",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Comments by SB": {
+      "value": null,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "top"
+      }
+    },
+    "Comments by Prolifics": {
+      "value": "Conduct connectivity and data insertion tests for the DB2 database to ensure successful communication and data flow. ",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Target Date": {
+      "value": "2025-05-15 00:00:00",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "mm-dd-yy",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Date Completed": {
+      "value": "2025-05-15 00:00:00",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "mm-dd-yy",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    }
+  },
+  {
+    "ID": {
+      "value": 3,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "#,##0_ ;\\-#,##0\\ ",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Action Item": {
+      "value": "Error Handling",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Owner": {
+      "value": " Prolifics ",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Status": {
+      "value": "Closed",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Comments by SB": {
+      "value": null,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Comments by Prolifics": {
+      "value": "We assumed we use it as is from existing design. But we noticed there are some error cases that are not handled and also the properties files not used. We are patching based on our needs. ",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Target Date": {
+      "value": "15-05-2025\u00a0",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "mm-dd-yy",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Date Completed": {
+      "value": "2025-05-15 00:00:00",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "mm-dd-yy",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    }
+  },
+  {
+    "ID": {
+      "value": 4,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "#,##0_ ;\\-#,##0\\ ",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Action Item": {
+      "value": "Azure Blob Storage Append Operations",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Owner": {
+      "value": " Prolifics ",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Status": {
+      "value": "Closed",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Comments by SB": {
+      "value": null,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Comments by Prolifics": {
+      "value": "Azure Data Lake connector to be used.",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Target Date": {
+      "value": "2025-05-28 00:00:00",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "mm-dd-yy",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Date Completed": {
+      "value": "2025-05-28 00:00:00",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "mm-dd-yy",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    }
+  },
+  {
+    "ID": {
+      "value": 5,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "#,##0_ ;\\-#,##0\\ ",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Action Item": {
+      "value": "Schema Changes & Deployment Impact",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Owner": {
+      "value": " Prolifics ",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Status": {
+      "value": "Open",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Comments by SB": {
+      "value": null,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": null
+      }
+    },
+    "Comments by Prolifics": {
+      "value": "Due to ongoing changes in incremental schemas, frequent code redeployment and testing are required to validate each update. - Mezze (we have to fix the broken DN schema and got 2 versions of Stock transfer schema), System21(got 2 versions of table names).",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "@",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Target Date": {
+      "value": "2025-06-13 00:00:00",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "mm-dd-yy",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Date Completed": {
+      "value": "2025-06-13 00:00:00",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "mm-dd-yy",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    }
+  },
+  {
+    "ID": {
+      "value": 6,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "#,##0_ ;\\-#,##0\\ ",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Action Item": {
+      "value": "System 21",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "top"
+      }
+    },
+    "Owner": {
+      "value": " Prolifics ",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Status": {
+      "value": "Closed",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Comments by SB": {
+      "value": null,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": null
+      }
+    },
+    "Comments by Prolifics": {
+      "value": "Initial assumption was one Stored Procedure call inserts into all tables but not we decided to segregate the approach. ",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": null
+      }
+    },
+    "Target Date": {
+      "value": "19-05-2025\u00a0",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "mm-dd-yy",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Date Completed": {
+      "value": "2025-05-19 00:00:00",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "mm-dd-yy",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    }
+  },
+  {
+    "ID": {
+      "value": 7,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "#,##0_ ;\\-#,##0\\ ",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Action Item": {
+      "value": "Current pipelines does not support 4.9 runtime & JAVA 17",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "top"
+      }
+    },
+    "Owner": {
+      "value": "Prolifics",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Status": {
+      "value": "Closed",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Comments by SB": {
+      "value": null,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": null,
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": null,
+        "alignment_vertical": "center"
+      }
+    },
+    "Comments by Prolifics": {
+      "value": "To work with new maven version and mule 4.9 runtime. We made the changes and we currently are able to deploy Mezze exp API using updated pipelines.",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": null
+      }
+    },
+    "Target Date": {
+      "value": "2025-05-22 00:00:00",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "mm-dd-yy",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Date Completed": {
+      "value": "2025-05-22 00:00:00",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "mm-dd-yy",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    }
+  },
+  {
+    "ID": {
+      "value": 8,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "#,##0_ ;\\-#,##0\\ ",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Action Item": {
+      "value": "Azure Table Storage",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Owner": {
+      "value": "Prolifics",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Status": {
+      "value": "Closed",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Comments by SB": {
+      "value": null,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": null,
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": null,
+        "alignment_vertical": "center"
+      }
+    },
+    "Comments by Prolifics": {
+      "value": "Azure Table Storage is replated with Cosmos DB",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "@",
+        "alignment_horizontal": "left",
+        "alignment_vertical": null
+      }
+    },
+    "Target Date": {
+      "value": "2025-06-02 00:00:00",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "mm-dd-yy",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Date Completed": {
+      "value": "2025-06-02 00:00:00",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "mm-dd-yy",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    }
+  }
+]
