@@ -5,6 +5,7 @@ import uuid
 import traceback
 import json
 import pandas as pd
+from datetime import datetime
 
 from excel_processing.read_excel import read_visible_excel_sheets_to_json
 from ppt_generation.slides import create_ppt_from_excel  # expects dict with sheet data
@@ -30,6 +31,7 @@ def upload_report():
         return jsonify({"message": "Invalid file(s)"}), 400
 
     unique_id = str(uuid.uuid4())
+    excel_name = os.path.splitext(excel_file.filename)[0] #saving excel with original name
     excel_upload_path = os.path.join(UPLOAD_FOLDER, f"{unique_id}.xlsx")
     ppt_upload_path = os.path.join(UPLOAD_FOLDER, f"{unique_id}.pptx")
     excel_file.save(excel_upload_path)
@@ -70,7 +72,7 @@ def upload_report():
             return jsonify({"message": "Failed to create PPT file"}), 500
 
         response = {
-            "pptDownloadUrl": f"http://localhost:5000/api/download-report/{unique_id}/ppt",
+            "pptDownloadUrl": f"http://localhost:5000/api/download-report/{unique_id}/ppt?name={excel_name}",
             "extractedJson": [os.path.basename(j) for j in extracted_json_files]
         }
         return jsonify(response)
@@ -87,7 +89,15 @@ def upload_report():
 def download_report(file_id, file_type):
     if file_type == "ppt":
         file_path = os.path.join(GENERATED_FOLDER, f"{file_id}_report.pptx")
-        download_name = "PptReport.pptx"
+        
+        # Get today's date
+        today_str = datetime.now().strftime("%Y-%m-%d__%H%M%S")
+        # Get excel name from query param (default = Report)
+        excel_name = request.args.get("name", "Report")
+        # Final download name: <ExcelFileName>_<YYYYMMDD>.pptx
+        download_name = f"{excel_name}_{today_str}.pptx"
+        
+        # download_name = "PptReport.pptx"
         mimetype = "application/vnd.openxmlformats-officedocument.presentationml.presentation"
     else:
         return jsonify({"message": "Invalid file type"}), 400
