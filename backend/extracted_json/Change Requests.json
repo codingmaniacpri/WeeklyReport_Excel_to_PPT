@@ -1,0 +1,943 @@
+[
+  {
+    "S.No": {
+      "value": 1,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "#,##0_ ;\\-#,##0\\ ",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Task#": {
+      "value": "Task-129",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": null,
+        "alignment_vertical": null
+      }
+    },
+    "Description": {
+      "value": "Setup SFTP connection with key pair method (DEV)",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": null,
+        "alignment_vertical": null
+      }
+    },
+    "OnSite": {
+      "value": "2 Hrs",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": null,
+        "alignment_vertical": null
+      }
+    },
+    "Offshore": {
+      "value": null,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": null,
+        "alignment_vertical": null
+      }
+    },
+    "Status": {
+      "value": "Active",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": null,
+        "alignment_vertical": null
+      }
+    }
+  },
+  {
+    "S.No": {
+      "value": 2,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "#,##0_ ;\\-#,##0\\ ",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Task#": {
+      "value": "Task-132",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": null,
+        "alignment_vertical": null
+      }
+    },
+    "Description": {
+      "value": "s-sb-filemover-api: Modify configurations in SFTP connection with key pair method in dev environment (UAT)",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": null,
+        "alignment_vertical": null
+      }
+    },
+    "OnSite": {
+      "value": "5 Hrs",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": null,
+        "alignment_vertical": null
+      }
+    },
+    "Offshore": {
+      "value": "2 Hrs (Sruthi)",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": null,
+        "alignment_vertical": null
+      }
+    },
+    "Status": {
+      "value": "Active",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": null,
+        "alignment_vertical": null
+      }
+    }
+  },
+  {
+    "S.No": {
+      "value": 3,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "#,##0_ ;\\-#,##0\\ ",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Task#": {
+      "value": "Task-130",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": null,
+        "alignment_vertical": null
+      }
+    },
+    "Description": {
+      "value": "Modify the container, directory structure, and file paths in the sbdatalakedev Azure account",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": null,
+        "alignment_vertical": null
+      }
+    },
+    "OnSite": {
+      "value": "3 Hrs",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Offshore": {
+      "value": "3 Hrs (Sasi)",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Status": {
+      "value": "Proposed",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": null,
+        "alignment_vertical": null
+      }
+    }
+  },
+  {
+    "S.No": {
+      "value": 4,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "#,##0_ ;\\-#,##0\\ ",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Task#": {
+      "value": "Task-131",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": null,
+        "alignment_vertical": null
+      }
+    },
+    "Description": {
+      "value": "p-sb-scheduler-app : Modify the container, directory structure, and file paths in the sbdatalakedev Azure account",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": null,
+        "alignment_vertical": null
+      }
+    },
+    "OnSite": {
+      "value": null,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "General",
+        "alignment_horizontal": null,
+        "alignment_vertical": null
+      }
+    },
+    "Offshore": {
+      "value": null,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "General",
+        "alignment_horizontal": null,
+        "alignment_vertical": null
+      }
+    },
+    "Status": {
+      "value": "Active",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": null,
+        "alignment_vertical": null
+      }
+    }
+  },
+  {
+    "S.No": {
+      "value": 5,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "#,##0_ ;\\-#,##0\\ ",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Task#": {
+      "value": "Task- 140",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": null,
+        "alignment_vertical": null
+      }
+    },
+    "Description": {
+      "value": "Mezze items - change to mapping",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": null,
+        "alignment_vertical": null
+      }
+    },
+    "OnSite": {
+      "value": "2.5 Hrs",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": null,
+        "alignment_vertical": null
+      }
+    },
+    "Offshore": {
+      "value": "4 Hrs (Sasi)",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Status": {
+      "value": "Proposed",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": null,
+        "alignment_vertical": null
+      }
+    }
+  },
+  {
+    "S.No": {
+      "value": 6,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "#,##0_ ;\\-#,##0\\ ",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Task#": {
+      "value": "Task-143",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": null,
+        "alignment_vertical": null
+      }
+    },
+    "Description": {
+      "value": "p-sb-scheduler-app: Items csv file mapping changes for mezz",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": null,
+        "alignment_vertical": null
+      }
+    },
+    "OnSite": {
+      "value": "1 Hr",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": null,
+        "alignment_vertical": null
+      }
+    },
+    "Offshore": {
+      "value": null,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "General",
+        "alignment_horizontal": null,
+        "alignment_vertical": null
+      }
+    },
+    "Status": {
+      "value": "Active",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": null,
+        "alignment_vertical": null
+      }
+    }
+  },
+  {
+    "S.No": {
+      "value": 7,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "#,##0_ ;\\-#,##0\\ ",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Task#": {
+      "value": "Task-147",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": null,
+        "alignment_vertical": null
+      }
+    },
+    "Description": {
+      "value": "p-sb-scheduler-app : Delivery Date format in sales order for mezze",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": null,
+        "alignment_vertical": null
+      }
+    },
+    "OnSite": {
+      "value": "1 Hr",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": null,
+        "alignment_vertical": null
+      }
+    },
+    "Offshore": {
+      "value": null,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "General",
+        "alignment_horizontal": null,
+        "alignment_vertical": null
+      }
+    },
+    "Status": {
+      "value": "Active",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": null,
+        "alignment_vertical": null
+      }
+    }
+  },
+  {
+    "S.No": {
+      "value": 8,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "#,##0_ ;\\-#,##0\\ ",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Task#": {
+      "value": "Task-148",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": null,
+        "alignment_vertical": null
+      }
+    },
+    "Description": {
+      "value": "Mezze Customers - change to mapping",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": null,
+        "alignment_vertical": null
+      }
+    },
+    "OnSite": {
+      "value": "1 Hr",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": null,
+        "alignment_vertical": null
+      }
+    },
+    "Offshore": {
+      "value": null,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "General",
+        "alignment_horizontal": null,
+        "alignment_vertical": null
+      }
+    },
+    "Status": {
+      "value": "Proposed",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": null,
+        "alignment_vertical": null
+      }
+    }
+  },
+  {
+    "S.No": {
+      "value": 9,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "#,##0_ ;\\-#,##0\\ ",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Task#": {
+      "value": "Task-149",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": null,
+        "alignment_vertical": null
+      }
+    },
+    "Description": {
+      "value": "p-sb-scheduler-app: Customers csv file mapping changes for mezze",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": null,
+        "alignment_vertical": null
+      }
+    },
+    "OnSite": {
+      "value": "1 Hr",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": null,
+        "alignment_vertical": null
+      }
+    },
+    "Offshore": {
+      "value": null,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "General",
+        "alignment_horizontal": null,
+        "alignment_vertical": null
+      }
+    },
+    "Status": {
+      "value": "Active",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": null,
+        "alignment_vertical": null
+      }
+    }
+  },
+  {
+    "S.No": {
+      "value": "Other Tasks",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "center",
+        "alignment_vertical": null
+      }
+    },
+    "Task#": {
+      "value": null,
+      "style": {}
+    },
+    "Description": {
+      "value": null,
+      "style": {}
+    },
+    "OnSite": {
+      "value": null,
+      "style": {}
+    },
+    "Offshore": {
+      "value": null,
+      "style": {}
+    },
+    "Status": {
+      "value": null,
+      "style": {}
+    }
+  },
+  {
+    "S.No": {
+      "value": null,
+      "style": {}
+    },
+    "Task#": {
+      "value": 1,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "#,##0_ ;\\-#,##0\\ ",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Description": {
+      "value": "Daily Stand Ups",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": null,
+        "alignment_vertical": null
+      }
+    },
+    "OnSite": {
+      "value": "10 Hrs",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": null,
+        "alignment_vertical": null
+      }
+    },
+    "Offshore": {
+      "value": "5 Hrs",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": null,
+        "alignment_vertical": null
+      }
+    },
+    "Status": {
+      "value": null,
+      "style": {}
+    }
+  },
+  {
+    "S.No": {
+      "value": null,
+      "style": {}
+    },
+    "Task#": {
+      "value": 2,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "#,##0_ ;\\-#,##0\\ ",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Description": {
+      "value": "Modify Pipelines for UAT deployments",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": null,
+        "alignment_vertical": null
+      }
+    },
+    "OnSite": {
+      "value": "3 Hrs",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": null,
+        "alignment_vertical": null
+      }
+    },
+    "Offshore": {
+      "value": null,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": null,
+        "alignment_vertical": null
+      }
+    },
+    "Status": {
+      "value": null,
+      "style": {}
+    }
+  },
+  {
+    "S.No": {
+      "value": null,
+      "style": {}
+    },
+    "Task#": {
+      "value": 3,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "#,##0_ ;\\-#,##0\\ ",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Description": {
+      "value": "Order Changes (AX-Sales Orders API/Scheduler API)",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": null,
+        "alignment_vertical": null
+      }
+    },
+    "OnSite": {
+      "value": "1 Hr",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": null,
+        "alignment_vertical": null
+      }
+    },
+    "Offshore": {
+      "value": "3 Hrs",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": null,
+        "alignment_vertical": null
+      }
+    },
+    "Status": {
+      "value": null,
+      "style": {}
+    }
+  }
+]

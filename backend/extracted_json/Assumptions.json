@@ -1,0 +1,674 @@
+[
+  {
+    "S.No": {
+      "value": 1,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "#,##0_ ;\\-#,##0\\ ",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Description/Details": {
+      "value": "The estimate is based on the HLD and LLD documents shared by Customer.",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "top"
+      }
+    }
+  },
+  {
+    "S.No": {
+      "value": 2,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "#,##0_ ;\\-#,##0\\ ",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Description/Details": {
+      "value": "Performance testing and security testing are out of scope.",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "top"
+      }
+    }
+  },
+  {
+    "S.No": {
+      "value": 3,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "#,##0_ ;\\-#,##0\\ ",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Description/Details": {
+      "value": "Exceptions in the workflow will be logged in MuleSoft logs.",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "top"
+      }
+    }
+  },
+  {
+    "S.No": {
+      "value": 4,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "#,##0_ ;\\-#,##0\\ ",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Description/Details": {
+      "value": "Firewall changes and network Connectivity between MuleSoft and different systems is owned by the Customer. ",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "top"
+      }
+    }
+  },
+  {
+    "S.No": {
+      "value": 5,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "#,##0_ ;\\-#,##0\\ ",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Description/Details": {
+      "value": "Event sequencing and de-duplication requirements are out of scope.",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "top"
+      }
+    }
+  },
+  {
+    "S.No": {
+      "value": 6,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "#,##0_ ;\\-#,##0\\ ",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Description/Details": {
+      "value": "MuleSoft out-the-box monitoring only. Alerts are raised in fresh service. Alert event will follow cloud event data model.",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "top"
+      }
+    }
+  },
+  {
+    "S.No": {
+      "value": 7,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "#,##0_ ;\\-#,##0\\ ",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Description/Details": {
+      "value": "Alerting framework would use AnyPoint MQ for reliability.",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "top"
+      }
+    }
+  },
+  {
+    "S.No": {
+      "value": 8,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "#,##0_ ;\\-#,##0\\ ",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Description/Details": {
+      "value": "The Solution will use the existing Samworth error handling and logging solution. Logging includes integration with Azure App Insights.",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "top"
+      }
+    }
+  },
+  {
+    "S.No": {
+      "value": 9,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "#,##0_ ;\\-#,##0\\ ",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Description/Details": {
+      "value": "Mapping complexity between ePod, CDM and System 21 is simple.",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "top"
+      }
+    }
+  },
+  {
+    "S.No": {
+      "value": 10,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "#,##0_ ;\\-#,##0\\ ",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Description/Details": {
+      "value": "Connection with System 21 will be using DB2 connector and stored procedure.",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "top"
+      }
+    }
+  },
+  {
+    "S.No": {
+      "value": 11,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "#,##0_ ;\\-#,##0\\ ",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Description/Details": {
+      "value": "Azure AD will be used as OAuth provider for authentication.",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "top"
+      }
+    }
+  },
+  {
+    "S.No": {
+      "value": 12,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "#,##0_ ;\\-#,##0\\ ",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Description/Details": {
+      "value": "All messages are less than 10mb",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "top"
+      }
+    }
+  },
+  {
+    "S.No": {
+      "value": 13,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "#,##0_ ;\\-#,##0\\ ",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Description/Details": {
+      "value": "All new APIs will be built on 4.9 runtime and Java 17.",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "top"
+      }
+    }
+  },
+  {
+    "S.No": {
+      "value": 14,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "#,##0_ ;\\-#,##0\\ ",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Description/Details": {
+      "value": "Creation of CH 2.0 infrastructure and any VPNs is out of scope.",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "top"
+      }
+    }
+  },
+  {
+    "S.No": {
+      "value": 15,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "#,##0_ ;\\-#,##0\\ ",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Description/Details": {
+      "value": "Staging of delivery routes in object store is out of scope. These routes will be staged outside MuleSoft.",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "top"
+      }
+    }
+  },
+  {
+    "S.No": {
+      "value": 16,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "#,##0_ ;\\-#,##0\\ ",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Description/Details": {
+      "value": "Alert aggregation/deduplication is done by Fresh Service and not MuleSoft.",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "top"
+      }
+    }
+  },
+  {
+    "S.No": {
+      "value": 17,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "#,##0_ ;\\-#,##0\\ ",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Description/Details": {
+      "value": "Order Process API and AX Order System API exposes REST API to fetch non-food for now orders. This endpoint will be reused to fetch orders.",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "top"
+      }
+    }
+  },
+  {
+    "S.No": {
+      "value": 18,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "#,##0_ ;\\-#,##0\\ ",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Description/Details": {
+      "value": "The ePod Experience API will break down events into separate units\u2014such as waste, returned products, sales, and delivery notes\u2014allowing each to be processed independently.",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "top"
+      }
+    }
+  },
+  {
+    "S.No": {
+      "value": 19,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "#,##0_ ;\\-#,##0\\ ",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Description/Details": {
+      "value": "Pagination is out of scope.",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "top"
+      }
+    }
+  },
+  {
+    "S.No": {
+      "value": 20,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "#,##0_ ;\\-#,##0\\ ",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Description/Details": {
+      "value": "Grouping of alerts based on error type and frequency will be in Fresh Service.",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "top"
+      }
+    }
+  },
+  {
+    "S.No": {
+      "value": 21,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "#,##0_ ;\\-#,##0\\ ",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Description/Details": {
+      "value": "Update existing APIs to publish alert events to exchange and not queue.",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "top"
+      }
+    }
+  },
+  {
+    "S.No": {
+      "value": 22,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "#,##0_ ;\\-#,##0\\ ",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Description/Details": {
+      "value": "Reuse existing Samworth CI/CD pipelines to deploy APIs. No effort added for DevOps.",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "top"
+      }
+    }
+  },
+  {
+    "S.No": {
+      "value": 23,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "#,##0_ ;\\-#,##0\\ ",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Description/Details": {
+      "value": "Reuse Samworth Azure boards and wiki for issue tracking and documentation",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "top"
+      }
+    }
+  },
+  {
+    "S.No": {
+      "value": 24,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "#,##0_ ;\\-#,##0\\ ",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Description/Details": {
+      "value": "Out of Hours or weekend working is not required.",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "top"
+      }
+    }
+  }
+]

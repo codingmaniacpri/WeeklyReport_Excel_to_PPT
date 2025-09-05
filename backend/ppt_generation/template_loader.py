@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 from pptx import Presentation
 
 def load_template(path: str):
@@ -5,3 +6,5 @@ def load_template(path: str):
 
 def save_presentation(prs, out_path: str):
     prs.save(out_path)
+=======
+>>>>>>> origin/Priyanshi

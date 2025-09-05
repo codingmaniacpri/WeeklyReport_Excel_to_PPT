@@ -1,0 +1,593 @@
+{
+  "headers": [
+    "",
+    "Effort Estimate Checklist",
+    "",
+    ""
+  ],
+  "rows": [
+    {
+      "": {
+        "value": null,
+        "style": {}
+      },
+      "Effort Estimate Checklist": {
+        "value": "Review Date:",
+        "style": {
+          "font_bold": false,
+          "font_italic": false,
+          "font_underline": null,
+          "font_color": "Values must be of type <class 'str'>",
+          "fill_color": "00000000",
+          "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+          "alignment_horizontal": null,
+          "alignment_vertical": null
+        }
+      }
+    },
+    {
+      "": {
+        "value": null,
+        "style": {}
+      },
+      "Effort Estimate Checklist": {
+        "value": "Reviewer :",
+        "style": {
+          "font_bold": false,
+          "font_italic": false,
+          "font_underline": null,
+          "font_color": "Values must be of type <class 'str'>",
+          "fill_color": "00000000",
+          "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+          "alignment_horizontal": null,
+          "alignment_vertical": null
+        }
+      }
+    },
+    {
+      "": {
+        "value": null,
+        "style": {}
+      },
+      "Effort Estimate Checklist": {
+        "value": null,
+        "style": {}
+      }
+    },
+    {
+      "": {
+        "value": "Comments/Action based on this version",
+        "style": {
+          "font_bold": true,
+          "font_italic": false,
+          "font_underline": null,
+          "font_color": "Values must be of type <class 'str'>",
+          "fill_color": null,
+          "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+          "alignment_horizontal": null,
+          "alignment_vertical": "center"
+        }
+      },
+      "Effort Estimate Checklist": {
+        "value": "Task",
+        "style": {
+          "font_bold": true,
+          "font_italic": false,
+          "font_underline": null,
+          "font_color": "Values must be of type <class 'str'>",
+          "fill_color": null,
+          "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+          "alignment_horizontal": null,
+          "alignment_vertical": "center"
+        }
+      }
+    },
+    {
+      "": {
+        "value": null,
+        "style": {
+          "font_bold": false,
+          "font_italic": false,
+          "font_underline": null,
+          "font_color": "Values must be of type <class 'str'>",
+          "fill_color": "00000000",
+          "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+          "alignment_horizontal": null,
+          "alignment_vertical": "center"
+        }
+      },
+      "Effort Estimate Checklist": {
+        "value": "Have tasks/activities been listed, categorised and estimated?",
+        "style": {
+          "font_bold": false,
+          "font_italic": false,
+          "font_underline": null,
+          "font_color": "Values must be of type <class 'str'>",
+          "fill_color": "00000000",
+          "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+          "alignment_horizontal": null,
+          "alignment_vertical": "center"
+        }
+      }
+    },
+    {
+      "": {
+        "value": null,
+        "style": {
+          "font_bold": false,
+          "font_italic": false,
+          "font_underline": null,
+          "font_color": "Values must be of type <class 'str'>",
+          "fill_color": "00000000",
+          "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+          "alignment_horizontal": null,
+          "alignment_vertical": "center"
+        }
+      },
+      "Effort Estimate Checklist": {
+        "value": "Have best case (minimum) and worst case (maximum) effort estimates been provided for the tasks/activities",
+        "style": {
+          "font_bold": false,
+          "font_italic": false,
+          "font_underline": null,
+          "font_color": "Values must be of type <class 'str'>",
+          "fill_color": "00000000",
+          "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+          "alignment_horizontal": null,
+          "alignment_vertical": "center"
+        }
+      }
+    },
+    {
+      "": {
+        "value": null,
+        "style": {
+          "font_bold": false,
+          "font_italic": false,
+          "font_underline": null,
+          "font_color": "Values must be of type <class 'str'>",
+          "fill_color": "00000000",
+          "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+          "alignment_horizontal": null,
+          "alignment_vertical": "center"
+        }
+      },
+      "Effort Estimate Checklist": {
+        "value": "Has a resource plan been created to support the effort estimate? This should include role and number of days allocated per day, work or month",
+        "style": {
+          "font_bold": false,
+          "font_italic": false,
+          "font_underline": null,
+          "font_color": "Values must be of type <class 'str'>",
+          "fill_color": "00000000",
+          "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+          "alignment_horizontal": null,
+          "alignment_vertical": "center"
+        }
+      }
+    },
+    {
+      "": {
+        "value": null,
+        "style": {
+          "font_bold": false,
+          "font_italic": false,
+          "font_underline": null,
+          "font_color": "Values must be of type <class 'str'>",
+          "fill_color": "00000000",
+          "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+          "alignment_horizontal": null,
+          "alignment_vertical": "center"
+        }
+      },
+      "Effort Estimate Checklist": {
+        "value": "Have the key assumptions that were used to produce the effort estimation been listed?",
+        "style": {
+          "font_bold": false,
+          "font_italic": false,
+          "font_underline": null,
+          "font_color": "Values must be of type <class 'str'>",
+          "fill_color": "00000000",
+          "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+          "alignment_horizontal": null,
+          "alignment_vertical": "center"
+        }
+      }
+    },
+    {
+      "": {
+        "value": null,
+        "style": {
+          "font_bold": false,
+          "font_italic": false,
+          "font_underline": null,
+          "font_color": "Values must be of type <class 'str'>",
+          "fill_color": "00000000",
+          "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+          "alignment_horizontal": null,
+          "alignment_vertical": "center"
+        }
+      },
+      "Effort Estimate Checklist": {
+        "value": "Have the key dependencies that we have based our estimate on been listed?",
+        "style": {
+          "font_bold": false,
+          "font_italic": false,
+          "font_underline": null,
+          "font_color": "Values must be of type <class 'str'>",
+          "fill_color": "00000000",
+          "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+          "alignment_horizontal": null,
+          "alignment_vertical": "center"
+        }
+      }
+    },
+    {
+      "": {
+        "value": null,
+        "style": {
+          "font_bold": false,
+          "font_italic": false,
+          "font_underline": null,
+          "font_color": "Values must be of type <class 'str'>",
+          "fill_color": "00000000",
+          "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+          "alignment_horizontal": null,
+          "alignment_vertical": "center"
+        }
+      },
+      "Effort Estimate Checklist": {
+        "value": "Have the key known risks been listed?",
+        "style": {
+          "font_bold": false,
+          "font_italic": false,
+          "font_underline": null,
+          "font_color": "Values must be of type <class 'str'>",
+          "fill_color": "00000000",
+          "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+          "alignment_horizontal": null,
+          "alignment_vertical": "center"
+        }
+      }
+    },
+    {
+      "": {
+        "value": null,
+        "style": {
+          "font_bold": false,
+          "font_italic": false,
+          "font_underline": null,
+          "font_color": "Values must be of type <class 'str'>",
+          "fill_color": "00000000",
+          "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+          "alignment_horizontal": null,
+          "alignment_vertical": "center"
+        }
+      },
+      "Effort Estimate Checklist": {
+        "value": "Is it clearly stated how contingency in the effort estimate has been accounted for?",
+        "style": {
+          "font_bold": false,
+          "font_italic": false,
+          "font_underline": null,
+          "font_color": "Values must be of type <class 'str'>",
+          "fill_color": "00000000",
+          "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+          "alignment_horizontal": null,
+          "alignment_vertical": "center"
+        }
+      }
+    },
+    {
+      "": {
+        "value": null,
+        "style": {}
+      },
+      "Effort Estimate Checklist": {
+        "value": null,
+        "style": {}
+      }
+    },
+    {
+      "": {
+        "value": null,
+        "style": {}
+      },
+      "Effort Estimate Checklist": {
+        "value": null,
+        "style": {}
+      }
+    },
+    {
+      "": {
+        "value": null,
+        "style": {}
+      },
+      "Effort Estimate Checklist": {
+        "value": "Price Release Checklist",
+        "style": {
+          "font_bold": true,
+          "font_italic": false,
+          "font_underline": null,
+          "font_color": "Values must be of type <class 'str'>",
+          "fill_color": "00000000",
+          "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+          "alignment_horizontal": null,
+          "alignment_vertical": null
+        }
+      }
+    },
+    {
+      "": {
+        "value": null,
+        "style": {}
+      },
+      "Effort Estimate Checklist": {
+        "value": "Review Date:",
+        "style": {
+          "font_bold": false,
+          "font_italic": false,
+          "font_underline": null,
+          "font_color": "Values must be of type <class 'str'>",
+          "fill_color": "00000000",
+          "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+          "alignment_horizontal": null,
+          "alignment_vertical": null
+        }
+      }
+    },
+    {
+      "": {
+        "value": null,
+        "style": {}
+      },
+      "Effort Estimate Checklist": {
+        "value": "Reviewer :",
+        "style": {
+          "font_bold": false,
+          "font_italic": false,
+          "font_underline": null,
+          "font_color": "Values must be of type <class 'str'>",
+          "fill_color": "00000000",
+          "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+          "alignment_horizontal": null,
+          "alignment_vertical": null
+        }
+      }
+    },
+    {
+      "": {
+        "value": null,
+        "style": {}
+      },
+      "Effort Estimate Checklist": {
+        "value": null,
+        "style": {}
+      }
+    },
+    {
+      "": {
+        "value": "Comments/Action based on this version",
+        "style": {
+          "font_bold": true,
+          "font_italic": false,
+          "font_underline": null,
+          "font_color": "Values must be of type <class 'str'>",
+          "fill_color": null,
+          "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+          "alignment_horizontal": null,
+          "alignment_vertical": "center"
+        }
+      },
+      "Effort Estimate Checklist": {
+        "value": "Task",
+        "style": {
+          "font_bold": true,
+          "font_italic": false,
+          "font_underline": null,
+          "font_color": "Values must be of type <class 'str'>",
+          "fill_color": null,
+          "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+          "alignment_horizontal": null,
+          "alignment_vertical": "center"
+        }
+      }
+    },
+    {
+      "": {
+        "value": null,
+        "style": {
+          "font_bold": false,
+          "font_italic": false,
+          "font_underline": null,
+          "font_color": "Values must be of type <class 'str'>",
+          "fill_color": "00000000",
+          "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+          "alignment_horizontal": null,
+          "alignment_vertical": "center"
+        }
+      },
+      "Effort Estimate Checklist": {
+        "value": "Have we calculated the price from a credible, resource based effort estimate?",
+        "style": {
+          "font_bold": false,
+          "font_italic": false,
+          "font_underline": null,
+          "font_color": "Values must be of type <class 'str'>",
+          "fill_color": "00000000",
+          "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+          "alignment_horizontal": null,
+          "alignment_vertical": "center"
+        }
+      }
+    },
+    {
+      "": {
+        "value": null,
+        "style": {
+          "font_bold": false,
+          "font_italic": false,
+          "font_underline": null,
+          "font_color": "Values must be of type <class 'str'>",
+          "fill_color": "00000000",
+          "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+          "alignment_horizontal": null,
+          "alignment_vertical": "center"
+        }
+      },
+      "Effort Estimate Checklist": {
+        "value": "Is the scope clearly defined?",
+        "style": {
+          "font_bold": false,
+          "font_italic": false,
+          "font_underline": null,
+          "font_color": "Values must be of type <class 'str'>",
+          "fill_color": "00000000",
+          "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+          "alignment_horizontal": null,
+          "alignment_vertical": "center"
+        }
+      }
+    },
+    {
+      "": {
+        "value": null,
+        "style": {
+          "font_bold": false,
+          "font_italic": false,
+          "font_underline": null,
+          "font_color": "Values must be of type <class 'str'>",
+          "fill_color": "00000000",
+          "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+          "alignment_horizontal": null,
+          "alignment_vertical": "center"
+        }
+      },
+      "Effort Estimate Checklist": {
+        "value": "Are the key assumptions & dependencies noted?",
+        "style": {
+          "font_bold": false,
+          "font_italic": false,
+          "font_underline": null,
+          "font_color": "Values must be of type <class 'str'>",
+          "fill_color": "00000000",
+          "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+          "alignment_horizontal": null,
+          "alignment_vertical": "center"
+        }
+      }
+    },
+    {
+      "": {
+        "value": null,
+        "style": {
+          "font_bold": false,
+          "font_italic": false,
+          "font_underline": null,
+          "font_color": "Values must be of type <class 'str'>",
+          "fill_color": "00000000",
+          "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+          "alignment_horizontal": null,
+          "alignment_vertical": "center"
+        }
+      },
+      "Effort Estimate Checklist": {
+        "value": "Has the appropriate rate card been used to generate the price?",
+        "style": {
+          "font_bold": false,
+          "font_italic": false,
+          "font_underline": null,
+          "font_color": "Values must be of type <class 'str'>",
+          "fill_color": "00000000",
+          "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+          "alignment_horizontal": null,
+          "alignment_vertical": "center"
+        }
+      }
+    },
+    {
+      "": {
+        "value": null,
+        "style": {
+          "font_bold": false,
+          "font_italic": false,
+          "font_underline": null,
+          "font_color": "Values must be of type <class 'str'>",
+          "fill_color": "00000000",
+          "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+          "alignment_horizontal": null,
+          "alignment_vertical": "center"
+        }
+      },
+      "Effort Estimate Checklist": {
+        "value": "Have expenses & VAT been noted as excluded or excluded from the price?",
+        "style": {
+          "font_bold": false,
+          "font_italic": false,
+          "font_underline": null,
+          "font_color": "Values must be of type <class 'str'>",
+          "fill_color": "00000000",
+          "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+          "alignment_horizontal": null,
+          "alignment_vertical": "center"
+        }
+      }
+    },
+    {
+      "": {
+        "value": null,
+        "style": {
+          "font_bold": false,
+          "font_italic": false,
+          "font_underline": null,
+          "font_color": "Values must be of type <class 'str'>",
+          "fill_color": "00000000",
+          "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+          "alignment_horizontal": null,
+          "alignment_vertical": "center"
+        }
+      },
+      "Effort Estimate Checklist": {
+        "value": "Has the Gross Margin (GM) and GM% been calculated?",
+        "style": {
+          "font_bold": false,
+          "font_italic": false,
+          "font_underline": null,
+          "font_color": "Values must be of type <class 'str'>",
+          "fill_color": "00000000",
+          "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+          "alignment_horizontal": null,
+          "alignment_vertical": "center"
+        }
+      }
+    },
+    {
+      "": {
+        "value": null,
+        "style": {
+          "font_bold": false,
+          "font_italic": false,
+          "font_underline": null,
+          "font_color": "Values must be of type <class 'str'>",
+          "fill_color": "00000000",
+          "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+          "alignment_horizontal": null,
+          "alignment_vertical": "center"
+        }
+      },
+      "Effort Estimate Checklist": {
+        "value": "Has the commercial and competitive context been considered when adjusting the price and GM%?",
+        "style": {
+          "font_bold": false,
+          "font_italic": false,
+          "font_underline": null,
+          "font_color": "Values must be of type <class 'str'>",
+          "fill_color": "00000000",
+          "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+          "alignment_horizontal": null,
+          "alignment_vertical": "center"
+        }
+      }
+    }
+  ]
+}

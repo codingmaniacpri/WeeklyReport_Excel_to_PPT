@@ -1,18 +1,29 @@
+from dataclasses import dataclass
+from typing import List, Any, Optional
+
+@dataclass
 class Cell:
-    def __init__(self, value, comment=None, formatting=None):
-        self.value = value
-        self.comment = comment
-        self.formatting = formatting  # e.g., color, border
+    value: Any
+    font_name: Optional[str] = None
+    font_size: Optional[float] = None
+    bold: Optional[bool] = None
+    italic: Optional[bool] = None
+    underline: Optional[bool] = None
+    font_color: Optional[str] = None
+    fill_color: Optional[str] = None
+    horizontal_alignment: Optional[str] = None
+    vertical_alignment: Optional[str] = None
 
+@dataclass
 class Row:
-    def __init__(self, cells):
-        self.cells = cells  # List[Cell]
+    cells: List[Cell]
 
+@dataclass
 class Table:
-    def __init__(self, rows):
-        self.rows = rows  # List[Row]
+    name: str
+    rows: List[Row]
 
+@dataclass
 class Sheet:
-    def __init__(self, name, tables):
-        self.name = name
-        self.tables = tables  # List[Table]
+    name: str
+    tables: List[Table]

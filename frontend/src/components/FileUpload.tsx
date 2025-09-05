@@ -15,12 +15,26 @@ interface Props {
   logoFile: File | null;
 }
 
+<<<<<<< HEAD
 const FileUpload: React.FC<Props> = ({ onPreview, onDownload }) => {
   const fileInputRef = useRef<HTMLInputElement>(null);
   const pptInputRef = useRef<HTMLInputElement>(null);
 
   const [selectedFile, setSelectedFile] = useState<File | null>(null); //Excel
   const [pptFile, setPptFile] = useState<File | null>(null); // PPT template
+=======
+const FileUpload: React.FC<Props> = ({ onPreview, companyName, logoFile }) => {
+  // refs for hidden file inputs
+  const excelInputRef = useRef<HTMLInputElement>(null);
+  const pptInputRef = useRef<HTMLInputElement>(null);
+
+  // input states
+  const [project_title, setProjectTitle] = useState("");
+  // const [startDate, setStartDate] = useState<Date | null>(null);
+  // const [endDate, setEndDate] = useState<Date | null>(null);
+  const [selectedDate, setSelectedDate] = useState<Date | null>(null);
+  const [weekRange, setWeekRange] = useState<string>("");
+>>>>>>> origin/Priyanshi
 
   const [error, setError] = useState<string | null>(null);
   const [dragOver, setDragOver] = useState(false);
@@ -96,6 +110,7 @@ const FileUpload: React.FC<Props> = ({ onPreview, onDownload }) => {
     setError(null);
     setPptFile(file);
   }
+  
 
   // Handlers for drag & drop etc.
   const handleDrop = (event: React.DragEvent<HTMLDivElement>) => {
@@ -132,15 +147,35 @@ const FileUpload: React.FC<Props> = ({ onPreview, onDownload }) => {
       setError("Please upload a PPT template.");
       return;
     }
+<<<<<<< HEAD
 
+=======
+    if (!project_title.trim()) {
+      setError("Please enter the project title.");
+      return;
+    }
+    if (!weekRange.trim()) {
+      setError("Please select a week range.");
+      return;
+    }
+>>>>>>> origin/Priyanshi
     setError(null);
     setUploading(true);
     setUploadProgress(0);
 
     const formData = new FormData();
+<<<<<<< HEAD
     formData.append("excel", selectedFile); // Excel
     formData.append("pptTemplate", pptFile); // PPT
 
+=======
+    formData.append("excel", excelFile);
+    formData.append("ppt", pptFile);
+    formData.append("project_title", project_title);
+    formData.append("weekRange", weekRange);
+    formData.append("companyName", companyName);
+    if (logoFile) formData.append("logoFile", logoFile);
+>>>>>>> origin/Priyanshi
     try {
       const response = await axios.post(
         "http://localhost:5000/api/upload-report",
@@ -188,7 +223,52 @@ const FileUpload: React.FC<Props> = ({ onPreview, onDownload }) => {
         Upload Files
       </h2>
 
+<<<<<<< HEAD
       {/* Excel Upload Box */}
+=======
+      {/* Text input: Project Title */}
+      <div className="mb-4">
+        <label className="block font-semibold mb-1">Project Title</label>
+        <input
+          type="text"
+          className="w-full border rounded px-3 py-2"
+          value={project_title}
+          onChange={(e) => setProjectTitle(e.target.value)}
+          required
+          placeholder="Enter your project title"
+        />
+      </div>
+
+      {/* Date range picker: Week Range */}
+      <div className="mb-4">
+        <label className="block font-semibold mb-1">Select Date</label>
+        <DatePicker
+          wrapperClassName="w-full"
+          selected={selectedDate}
+          onChange={(date: Date | null) => {
+            setSelectedDate(date);
+            if (date) {
+              const formatted = date.toLocaleDateString("en-GB", {
+                day: "2-digit",
+                month: "short",
+                year: "numeric",
+              });
+              setWeekRange(formatted); // reuse your existing state if you want
+            } else {
+              setWeekRange("");
+            }
+          }}
+          isClearable
+          placeholderText="Select a date"
+          className="w-full border rounded px-3 py-2"
+        />
+      </div>
+
+      {/* Upload Excel file */}
+      <p className="font-semibold mb-2 text-center text-gray-800 flex items-center justify-center gap-2">
+        📑 Upload Excel File
+      </p>
+>>>>>>> origin/Priyanshi
       <div
         className={`border-2 border-dashed rounded-lg p-8 text-center cursor-pointer transition-colors duration-200 ${
           dragOver ? "border-blue-500 bg-blue-50" : "border-gray-300 bg-gray-50"

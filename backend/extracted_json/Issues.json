@@ -1,0 +1,744 @@
+[
+  {
+    "ID": {
+      "value": 1,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "General",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Issue": {
+      "value": "All the dependencies to be resolved within the agreed time lines",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "General",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Severity": {
+      "value": "Medium",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Raised Date": {
+      "value": "2025-05-23 00:00:00",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "dd/mm/yyyy;@",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Owner": {
+      "value": "Bell",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "General",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Impact / Comments": {
+      "value": "Project time lines have impacted and also developers are waiting for the dependency to be cleared to move forward",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": null,
+        "alignment_vertical": "center"
+      }
+    },
+    "Status / Actions": {
+      "value": "Dependency Clearence will be the  most requirement to make the progress from Prolifics. Prolifics PM to closely work sith SB team.",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": null,
+        "alignment_vertical": "center"
+      }
+    },
+    "Complete Date": {
+      "value": "TBC",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "dd/mm/yyyy;@",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    }
+  },
+  {
+    "ID": {
+      "value": 2,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "General",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Issue": {
+      "value": "Issues with SFTP/Azure Blob storage file transfers (e.g., connectivity, Access)",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "yyyy\\-mm\\-dd;@",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Severity": {
+      "value": "High",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Raised Date": {
+      "value": "2025-05-23 00:00:00",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "d/mm/yyyy;@",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Owner": {
+      "value": "Bell/Dan",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Impact / Comments": {
+      "value": "Delays to receiving access for SFTP/Azure Block storage have led to development and timeline delays",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Status / Actions": {
+      "value": "Conduct early connectivity testing with test files.",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": null,
+        "alignment_vertical": "center"
+      }
+    },
+    "Complete Date": {
+      "value": "2025-06-06 00:00:00",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "d/mm/yyyy;@",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    }
+  },
+  {
+    "ID": {
+      "value": 3,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "General",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Issue": {
+      "value": "Rework on API design & build due to unclear requirements/mapping specifications",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Severity": {
+      "value": "High",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Raised Date": {
+      "value": "2025-05-23 00:00:00",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "d/mm/yyyy;@",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Owner": {
+      "value": "Bell",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Impact / Comments": {
+      "value": "Delays in receiving signed of Schema/mapping specifications & design confirmations have led to design & development timeline delays",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Status / Actions": {
+      "value": "Involve product team early in design reviews.",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": null,
+        "alignment_vertical": "center"
+      }
+    },
+    "Complete Date": {
+      "value": "2025-06-13 00:00:00",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "d/mm/yyyy;@",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    }
+  },
+  {
+    "ID": {
+      "value": 4,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "General",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Issue": {
+      "value": "Project timelines are tightly constrained while key requirements and system access details remain undefined or pending clarification.",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Severity": {
+      "value": "High",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Raised Date": {
+      "value": "2025-05-23 00:00:00",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "d/mm/yyyy;@",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Owner": {
+      "value": "Bell",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Impact / Comments": {
+      "value": "Team had to rework on scope creep due to late discovery of functional and technical requirements which increased the likelihood of project overruns and missed milestones.",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Status / Actions": {
+      "value": "Conduct a requirements clarification workshop with SMEs and stakeholders. Define a \u201cRequirements Freeze\u201d date and Parallel-track access requests to avoid idle time during Design/Development stages. Establish checkpoints for critical dependencies and raise blockers in daily/weekly meetings.",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "@",
+        "alignment_horizontal": null,
+        "alignment_vertical": "center"
+      }
+    },
+    "Complete Date": {
+      "value": "2025-06-13 00:00:00",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "d/mm/yyyy;@",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    }
+  },
+  {
+    "ID": {
+      "value": 5,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "General",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Issue": {
+      "value": "Citrix access blocking DEV team to perform local testing",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Severity": {
+      "value": "Medium",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Raised Date": {
+      "value": "2025-05-23 00:00:00",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "d/mm/yyyy;@",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Owner": {
+      "value": "Bell/Dan",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Impact / Comments": {
+      "value": "Delays to receiving access for Citrix have led to development & unit testing timeline delays ",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Status / Actions": {
+      "value": " Provision Temporary Local Access, Escalate and Prioritize Access Requests ",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "@",
+        "alignment_horizontal": null,
+        "alignment_vertical": "center"
+      }
+    },
+    "Complete Date": {
+      "value": "2025-06-13 00:00:00",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "d/mm/yyyy;@",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    }
+  },
+  {
+    "ID": {
+      "value": 6,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "General",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Issue": {
+      "value": "No confirmation received from the client regarding SIT and UAT testing timelines",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Severity": {
+      "value": "High",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Raised Date": {
+      "value": "2025-06-06 00:00:00",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "d/mm/yyyy;@",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Owner": {
+      "value": "Will",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Impact / Comments": {
+      "value": " Potential delays in the overall project schedule due to lack of clarity on testing phases. ",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Status / Actions": {
+      "value": " Follow up with the client to obtain testing timelines; proceed with preparatory activities (if any) in parallel to minimize idle time. ",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "@",
+        "alignment_horizontal": null,
+        "alignment_vertical": "center"
+      }
+    },
+    "Complete Date": {
+      "value": "TBC",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF9C0006",
+        "fill_color": "FFFFC7CE",
+        "number_format": "d/mm/yyyy;@",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    }
+  },
+  {
+    "ID": {
+      "value": 7,
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "Values must be of type <class 'str'>",
+        "fill_color": "00000000",
+        "number_format": "General",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Issue": {
+      "value": "Ongoing scope creep due to frequent schema and mapping changes, leading to rework, increased effort, and potential delays in delivery.",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Severity": {
+      "value": "High",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Raised Date": {
+      "value": "2025-08-01 00:00:00",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "d/mm/yyyy;@",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Owner": {
+      "value": "Will",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    },
+    "Impact / Comments": {
+      "value": "Potential delays in the overall project schedule which is impacting overall budget & cost control.",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Status / Actions": {
+      "value": "Freeze schema/mapping after design sign-off unless changes are business-critical & Establish a formal change control process for schema/mapping modifications.",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF000000",
+        "fill_color": "00000000",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "left",
+        "alignment_vertical": "center"
+      }
+    },
+    "Complete Date": {
+      "value": "TBC",
+      "style": {
+        "font_bold": false,
+        "font_italic": false,
+        "font_underline": null,
+        "font_color": "FF9C0006",
+        "fill_color": "FFFFC7CE",
+        "number_format": "_-[$\u00a3-809]* #,##0.00_-;\\-[$\u00a3-809]* #,##0.00_-;_-[$\u00a3-809]* \"-\"??_-;_-@_-",
+        "alignment_horizontal": "center",
+        "alignment_vertical": "center"
+      }
+    }
+  }
+]
