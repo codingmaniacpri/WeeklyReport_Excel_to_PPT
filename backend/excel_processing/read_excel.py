@@ -5,8 +5,27 @@ from concurrent.futures import ThreadPoolExecutor
 from openpyxl.utils import range_boundaries
 import re
 import pandas as pd
-from datetime import datetime, date
+from datetime import datetime
 
+def get_fill_color(cell):
+    fill = cell.fill
+    if fill is None or fill.patternType is None or fill.patternType == 'none':
+        return None  # No fill
+    # Direct RGB, e.g. 'FFB6DDE8' (ARGB: alpha+RGB)
+    if hasattr(fill, 'fgColor'):
+        color = fill.fgColor
+        # If color is RGB (most direct case)
+        if color.type == 'rgb' and color.rgb:
+            return color.rgb  # format: 'FFB6DDE8'
+        # Try theme-based colors (fallback, not always accurate)
+        elif color.type == 'theme' and hasattr(color, 'rgb') and color.rgb:
+            return color.rgb
+        elif color.type == 'indexed' and color.indexed is not None:
+            # Map Excel's indexed to RGB:
+            from openpyxl.styles.colors import COLOR_INDEX
+            rgb = COLOR_INDEX.get(color.indexed)
+            return rgb
+    return None
 
 def extract_style(cell, style_cache):
     """
@@ -19,8 +38,10 @@ def extract_style(cell, style_cache):
     # Build a key to cache repeated styles
     key = (
         cell.font.bold, cell.font.italic, cell.font.underline,
-        getattr(cell.font.color, "rgb", None),
-        getattr(cell.fill.fgColor, "rgb", None),
+        # getattr(cell.font.color, "rgb", None),
+        # getattr(cell.fill.fgColor, "rgb", None),
+        get_fill_color(cell),
+        
         cell.number_format, cell.alignment.horizontal, cell.alignment.vertical
     )
 
@@ -29,8 +50,10 @@ def extract_style(cell, style_cache):
             "font_bold": cell.font.bold,
             "font_italic": cell.font.italic,
             "font_underline": cell.font.underline,
-            "font_color": getattr(cell.font.color, "rgb", None),
-            "fill_color": getattr(cell.fill.fgColor, "rgb", None),
+            # "font_color": getattr(cell.font.color, "rgb", None),
+            # "fill_color": getattr(cell.fill.fgColor, "rgb", None),
+            "font_color": get_fill_color(cell),
+            "fill_color": get_fill_color(cell),
             "number_format": cell.number_format,
             "alignment_horizontal": cell.alignment.horizontal,
             "alignment_vertical": cell.alignment.vertical,

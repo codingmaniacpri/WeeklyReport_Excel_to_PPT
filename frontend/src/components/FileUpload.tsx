@@ -17,19 +17,16 @@ interface Props {
   logoFile: File | null;
 }
 
-const FileUpload: React.FC<Props> = ({
-  onPreview,
-  companyName,
-  logoFile,
-}) => {
+const FileUpload: React.FC<Props> = ({ onPreview, companyName, logoFile }) => {
   // refs for hidden file inputs
   const excelInputRef = useRef<HTMLInputElement>(null);
   const pptInputRef = useRef<HTMLInputElement>(null);
 
   // input states
-  const [projectTitle, setProjectTitle] = useState("");
-  const [startDate, setStartDate] = useState<Date | null>(null);
-  const [endDate, setEndDate] = useState<Date | null>(null);
+  const [project_title, setProjectTitle] = useState("");
+  // const [startDate, setStartDate] = useState<Date | null>(null);
+  // const [endDate, setEndDate] = useState<Date | null>(null);
+  const [selectedDate, setSelectedDate] = useState<Date | null>(null);
   const [weekRange, setWeekRange] = useState<string>("");
 
   // file states
@@ -110,6 +107,7 @@ const FileUpload: React.FC<Props> = ({
     setError(null);
     setPptFile(file);
   }
+  
 
   // Handlers to manage drag & drop and file input changes for Excel
   const handleDropExcel = (event: React.DragEvent<HTMLDivElement>) => {
@@ -143,7 +141,7 @@ const FileUpload: React.FC<Props> = ({
       setError("Please upload a PPT template.");
       return;
     }
-    if (!projectTitle.trim()) {
+    if (!project_title.trim()) {
       setError("Please enter the project title.");
       return;
     }
@@ -157,7 +155,7 @@ const FileUpload: React.FC<Props> = ({
     const formData = new FormData();
     formData.append("excel", excelFile);
     formData.append("ppt", pptFile);
-    formData.append("projectTitle", projectTitle);
+    formData.append("project_title", project_title);
     formData.append("weekRange", weekRange);
     formData.append("companyName", companyName);
     if (logoFile) formData.append("logoFile", logoFile);
@@ -209,7 +207,7 @@ const FileUpload: React.FC<Props> = ({
         <input
           type="text"
           className="w-full border rounded px-3 py-2"
-          value={projectTitle}
+          value={project_title}
           onChange={(e) => setProjectTitle(e.target.value)}
           required
           placeholder="Enter your project title"
@@ -218,30 +216,25 @@ const FileUpload: React.FC<Props> = ({
 
       {/* Date range picker: Week Range */}
       <div className="mb-4">
-        <label className="block font-semibold mb-1">Week Range</label>
+        <label className="block font-semibold mb-1">Select Date</label>
         <DatePicker
           wrapperClassName="w-full"
-          selectsRange
-          startDate={startDate}
-          endDate={endDate}
-          onChange={(dates: [Date | null, Date | null]) => {
-            const [start, end] = dates;
-            setStartDate(start);
-            setEndDate(end);
-            if (start && end) {
-              const formatDate = (d: Date) =>
-                d.toLocaleDateString("en-GB", {
-                  day: "2-digit",
-                  month: "short",
-                  year: "numeric",
-                });
-              setWeekRange(`${formatDate(start)} - ${formatDate(end)}`);
+          selected={selectedDate}
+          onChange={(date: Date | null) => {
+            setSelectedDate(date);
+            if (date) {
+              const formatted = date.toLocaleDateString("en-GB", {
+                day: "2-digit",
+                month: "short",
+                year: "numeric",
+              });
+              setWeekRange(formatted); // reuse your existing state if you want
             } else {
               setWeekRange("");
             }
           }}
           isClearable
-          placeholderText="Select a date range"
+          placeholderText="Select a date"
           className="w-full border rounded px-3 py-2"
         />
       </div>

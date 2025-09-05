@@ -23,6 +23,7 @@ os.makedirs(EXTRACTED_FOLDER, exist_ok=True)
 
 @app.route("/api/upload-report", methods=["POST"])
 def upload_report():
+    
     if 'excel' not in request.files or 'ppt' not in request.files:
         return jsonify({"message": "Both Excel and PPT files are required"}), 400
     excel_file = request.files['excel']
@@ -50,23 +51,27 @@ def upload_report():
         for json_path in extracted_json_files:
             with open(json_path, "r", encoding="utf-8") as f:
                 sheet_json = json.load(f)  # list of dicts with nested 'value' and 'style'
+                
+            sheet_name = os.path.splitext(os.path.basename(json_path))[0]
+            sheets_data[sheet_name] = sheet_json
             
             # Extract only the "value" from each cell for DataFrame construction
-            clean_rows = []
-            for row in sheet_json:
-                clean_row = {col: cell_info["value"] if isinstance(cell_info, dict) else cell_info
-                             for col, cell_info in row.items()}
-                clean_rows.append(clean_row)
+            # clean_rows = []
+            # for row in sheet_json:
+            #     clean_row = {col: cell_info["value"] if isinstance(cell_info, dict) else cell_info
+            #                  for col, cell_info in row.items()}
+            #     clean_rows.append(clean_row)
 
             # Convert to DataFrame
-            df = pd.DataFrame(clean_rows)
-            sheets_data[os.path.splitext(os.path.basename(json_path))[0]] = df
+            # df = pd.DataFrame(clean_rows)
+            sheets_data[os.path.splitext(os.path.basename(json_path))[0]] = sheet_json
 
         print("Sheets data loaded:", sheets_data.keys())
 
         # Step 3: Generate PPT using template & sheets_data dict
+        project_title = request.form.get("project_title", "")
         ppt_generated_path = os.path.join(GENERATED_FOLDER, f"{unique_id}_report.pptx")
-        create_ppt_from_excel(ppt_upload_path, sheets_data, ppt_generated_path)
+        create_ppt_from_excel(ppt_upload_path, sheets_data, ppt_generated_path, project_title=project_title)
 
         if not os.path.exists(ppt_generated_path):
             return jsonify({"message": "Failed to create PPT file"}), 500
